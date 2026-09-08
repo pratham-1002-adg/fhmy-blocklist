@@ -3,7 +3,7 @@
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
 # Total Rules: 479
-# Updated: 2026-09-08 05:52:10 UTC
+# Updated: 2026-09-08 06:08:20 UTC
 
 4pda.to
 80bee.com

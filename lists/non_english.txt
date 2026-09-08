@@ -2,8 +2,8 @@
 ! Description: Non-English and regional piracy, streaming, and media portals.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources
-! Total Rules: 1431
-! Updated: 2026-09-08 05:52:10 UTC
+! Total Rules: 1430
+! Updated: 2026-09-08 06:08:20 UTC
 
 ||1jour1film0626.site^
 ||1lou.me^
@@ -359,7 +359,6 @@
 ||digimoviez.com^
 ||digital.bbm.usp.br^
 ||dio.me^
-||distro.tv^
 ||divxclasico.com^
 ||dizibox.live^
 ||diziizle.tel^
@@ -727,7 +726,6 @@
 ||krdtv.online^
 ||kreskowkasubs.blogspot.com^
 ||ktuvit.me^
-||kukufm.com^
 ||kultfilmler.net^
 ||kurdcinama.com^
 ||kurdsubtitle.net^
@@ -1406,6 +1404,7 @@
 ||xdccmule.org^
 ||xfilme.ro^
 ||xgcartoon.com^
+||xiaobaotv.com^
 ||xiaoyakankan.com^
 ||xiazai001.org^
 ||xmanhua.com^

@@ -2,11 +2,11 @@
 ! Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources
-! Total Rules: 1058
-! Updated: 2026-09-08 05:52:10 UTC
+! Total Rules: 1057
+! Updated: 2026-09-08 06:08:20 UTC
 
 ||0xdb.org^
-||123animes.ru^
+||123animehub.cc^
 ||123movie.app^
 ||123wrestling.com^
 ||1337x.to^
@@ -180,7 +180,6 @@
 ||bintv.link^
 ||blu-ray.com^
 ||boomflix.qzz.io^
-||boredflix.tv^
 ||boxofficemojo.com^
 ||britishpathe.com^
 ||brokensilenze.net^
@@ -395,6 +394,7 @@
 ||hexa.su^
 ||hi10anime.com^
 ||hianime.ad^
+||hianimes.ru^
 ||highdefdigest.com^
 ||hindmoviez.cafe^
 ||historicfilms.com^
@@ -1037,7 +1037,6 @@
 ||www3.anikai.cc^
 ||xdaforums.com^
 ||xtreme-wrestling-downloads.com^
-||xullys.xyz^
 ||xyzstreams.st^
 ||yenime.net^
 ||yeshd.net^

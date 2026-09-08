@@ -2,8 +2,8 @@
 # Description: Complete merged and deduplicated rules from all FMHY categories.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
-# Total Rules: 5966
-# Updated: 2026-09-08 05:52:10 UTC
+# Total Rules: 5964
+# Updated: 2026-09-08 06:08:20 UTC
 
 0mag.net
 0xdb.org
@@ -12,7 +12,7 @@
 101soundboards.com
 1024teradl.com
 120minutes.org
-123animes.ru
+123animehub.cc
 123movie.app
 123wrestling.com
 1337x-status.org
@@ -816,7 +816,6 @@ bookys-ebooks.com
 boomflix.qzz.io
 boomy.com
 bootleg.fm
-boredflix.tv
 boroboro.neocities.org
 bots.miku.gg
 bowdtv.com
@@ -1365,7 +1364,6 @@ discuss.privacyguides.net
 disneynow.com
 distribyted.com
 distro.fedesito.me
-distro.tv
 diva.sfsu.edu
 divxclasico.com
 diybookscanner.org
@@ -2300,6 +2298,7 @@ heyvr.io
 hh.gbdev.io
 hi10anime.com
 hianime.ad
+hianimes.ru
 hiddenbible.com
 highdefdigest.com
 higherlowergame.com
@@ -2730,7 +2729,6 @@ ktimusic.blogspot.com
 ktuvit.me
 kudos.wiki
 kuku-kube.com
-kukufm.com
 kultfilmler.net
 kupdf.net
 kurdcinama.com
@@ -5855,6 +5853,7 @@ xdccmule.org
 xdlab.ru
 xfilme.ro
 xgcartoon.com
+xiaobaotv.com
 xiaoyakankan.com
 xiazai001.org
 xkcd-search.typesense.org
@@ -5870,7 +5869,6 @@ xrel.to
 xrysoi.pro
 xtrance.info
 xtreme-wrestling-downloads.com
-xullys.xyz
 xwords-generator.de
 xyzstreams.st
 y8.com
