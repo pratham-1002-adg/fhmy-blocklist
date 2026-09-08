@@ -2,8 +2,8 @@
 ! Description: Complete merged and deduplicated rules from all FMHY categories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 5964
-! Updated: 2026-09-08 15:21:11 UTC
+! Total Rules: 6013
+! Updated: 2026-09-08 15:40:39 UTC
 
 ||0mag.net^
 ||0xdb.org^
@@ -14,6 +14,7 @@
 ||120minutes.org^
 ||123animehub.cc^
 ||123movie.app^
+||123moviesfree.club^
 ||123wrestling.com^
 ||1337x-status.org^
 ||1337x.st^
@@ -63,6 +64,7 @@
 ||473999.net^
 ||4chanmusic.miraheze.org^
 ||4khdhub.link^
+||4khdhub.one^
 ||4kw.in^
 ||4pda.to^
 ||4shared.com^
@@ -363,6 +365,7 @@
 ||animeunity.so^
 ||animevietsub.link^
 ||animevilla.in^
+||animevilla.org^
 ||animeworld.ac^
 ||animeworlditalia.com^
 ||animex.one^
@@ -378,6 +381,7 @@
 ||aniplus.co^
 ||anisearch.com^
 ||anisnatch.p1y.top^
+||anisnatch.site^
 ||anisnatch.top^
 ||anistation.top^
 ||anistream.one^
@@ -612,6 +616,7 @@
 ||az-animex.com^
 ||azlyrics.com^
 ||azmovies.to^
+||azorafly.com^
 ||azoramoon.com^
 ||azquotes.com^
 ||azseries.org^
@@ -659,6 +664,7 @@
 ||batcave.biz^
 ||battarang.anissan.com^
 ||baza-knig.ink^
+||baza-knig.top^
 ||bazarr.media^
 ||bbc.co.uk^
 ||bbcmicro.co.uk^
@@ -995,6 +1001,7 @@
 ||cineapse.net^
 ||cineaste.co.kr^
 ||cineblog01.red^
+||cineby.gdn^
 ||cinebytv.com^
 ||cinecalidad.ec^
 ||cineclasicodcc.com^
@@ -1122,6 +1129,7 @@
 ||companion.injectprompt.com^
 ||comparisontabl.es^
 ||comparitech.com^
+||composer.betterlyrics.org^
 ||composer.boidu.dev^
 ||computer.tldraw.com^
 ||concertarchives.org^
@@ -1315,6 +1323,7 @@
 ||detodopeliculas.nu^
 ||deutschelyrik.de^
 ||devcheck.app^
+||developers.openai.com^
 ||devices.ubuntu-touch.io^
 ||devil-torrents.pl^
 ||devilutionx.com^
@@ -1418,6 +1427,7 @@
 ||dolthpt.vn^
 ||domarks.app^
 ||dominioshdfull.com^
+||donghua4k.net^
 ||dongmanmanhua.cn^
 ||donnons.org^
 ||donotcall.gov^
@@ -1540,6 +1550,7 @@
 ||echowalk.com^
 ||eclipseemu.me^
 ||eclipsemusic.app^
+||ecoutezvosoreilles.be^
 ||edels-stube.eu^
 ||editor.audio^
 ||editoreric.com^
@@ -1978,6 +1989,7 @@
 ||freetvz.com^
 ||freewebnovel.com^
 ||frembed.casa^
+||frembed.surf^
 ||french-anime.com^
 ||french-stream.one^
 ||frenchfrysoftware.com^
@@ -1990,6 +2002,7 @@
 ||fsharetv.co^
 ||fstream.info^
 ||fstv.rest^
+||fuckdm.ca^
 ||fuel.io^
 ||fukou-da.net^
 ||fullhdfilmizlesene.mx^
@@ -2167,6 +2180,7 @@
 ||gopeed.com^
 ||goplay.su^
 ||goto10.fr^
+||goyabu.io^
 ||goyabu.to^
 ||gpop.io^
 ||gptdemo.net^
@@ -2437,6 +2451,7 @@
 ||indexsubtitle.cc^
 ||indiancine.ma^
 ||indiansignlanguage.org^
+||indie.fun^
 ||infinibrowser.wiki^
 ||infinitewordles.org^
 ||infobooks.org^
@@ -2459,6 +2474,7 @@
 ||inventaire.io^
 ||invertexto.com^
 ||invizible.net^
+||invoke.ai^
 ||io808.com^
 ||iogames.party^
 ||iogames.space^
@@ -2566,6 +2582,7 @@
 ||jpop.xyz^
 ||jpopsingles.eu^
 ||jpxs123.cc^
+||jpxs123.top^
 ||jref.com^
 ||js13kgames.com^
 ||jsbooks.revolunet.com^
@@ -2605,6 +2622,7 @@
 ||katworld.net^
 ||katzddl.net^
 ||kawaii-anime.com^
+||kawaiianime.cc^
 ||kayoanime.com^
 ||kazora.cc^
 ||kboingfm.com.br^
@@ -2652,9 +2670,11 @@
 ||kinoflux.biz^
 ||kinoger.com^
 ||kinogo.ec^
+||kinogo.fit^
 ||kinogo.luxury^
 ||kinogo2026.com^
 ||kinoking.cc^
+||kinokong.es^
 ||kinokong.li^
 ||kinomix.web.app^
 ||kinos.to^
@@ -2665,6 +2685,7 @@
 ||kira.vercel.app^
 ||kirastudio.org^
 ||kirka.io^
+||kirmalk.com^
 ||kissasian.video^
 ||kisskh.dk^
 ||kisskh.fr^
@@ -2681,6 +2702,7 @@
 ||kkphim.com^
 ||klikxxi.art^
 ||klikxxi.com^
+||klikxxi.shop^
 ||klipy.com^
 ||klyingshi.com^
 ||klz9.com^
@@ -2701,6 +2723,7 @@
 ||komga.org^
 ||komiic.com^
 ||komiku.id^
+||komiku.org^
 ||kongregate.com^
 ||konkr.io^
 ||konserthuset.se^
@@ -2730,6 +2753,7 @@
 ||kudos.wiki^
 ||kuku-kube.com^
 ||kultfilmler.net^
+||kultivi.com^
 ||kupdf.net^
 ||kurdcinama.com^
 ||kurdsubtitle.net^
@@ -2778,11 +2802,13 @@
 ||lecinemaclub.com^
 ||lectuepub4.com^
 ||lectuepubgratis3.com^
+||lectuepublibre6.com^
 ||leeapk.com^
 ||leereilly.net^
 ||legendaoficial.net^
 ||legendas.net^
 ||legendasbrasil.org^
+||legendei.net^
 ||legendsworld.net^
 ||lelscanfr.com^
 ||lemmasoft.renai.us^
@@ -2843,6 +2869,7 @@
 ||lightnovelheaven.com^
 ||lightnovelworld.org^
 ||likemanga.in^
+||likemanga.ink^
 ||limetorrents.fun^
 ||liminal-archives.wikidot.com^
 ||lineageos.org^
@@ -3127,6 +3154,7 @@
 ||megacartoons.net^
 ||megacomicstv3.blogspot.com^
 ||megakino14.com^
+||megakino18.com^
 ||megalodon.jp^
 ||megamanmaker.com^
 ||megapeliculasrip.me^
@@ -3252,6 +3280,7 @@
 ||monoskop.org^
 ||moocs.ggte.unicamp.br^
 ||moodist.app^
+||moodist.mvze.net^
 ||moodle.ifrs.edu.br^
 ||moomoo.io^
 ||moomza.com^
@@ -3290,6 +3319,7 @@
 ||movieparadise.org^
 ||moviepire.org^
 ||moviepooper.com^
+||moviescenemap.com^
 ||moviescountdown.com^
 ||moviesfoundonline.com^
 ||moviesleech.bar^
@@ -3313,6 +3343,7 @@
 ||msft-store.tplant.com.au^
 ||msi.com^
 ||mstream.io^
+||msty.ai^
 ||msty.app^
 ||msx.org^
 ||msxgamesworld.com^
@@ -3335,6 +3366,7 @@
 ||mundodonghua.com^
 ||mundoeducacao.uol.com.br^
 ||mundoubuntu.com.br^
+||muntashir.dev^
 ||mupdf.com^
 ||murdle.com^
 ||murdoku.com^
@@ -3384,6 +3416,7 @@
 ||myanonamouse.net^
 ||myboerse.bz^
 ||mybrowseraddon.com^
+||mycima.gdn^
 ||mycima.gripe^
 ||mycomics.de^
 ||mydora.restorativland.org^
@@ -3462,6 +3495,7 @@
 ||nevix.com^
 ||new-team.org^
 ||new.anidl.org^
+||new.katmoviehd.top^
 ||new2.moviesdrive.christmas^
 ||newage.one^
 ||newalbumreleases.net^
@@ -3541,6 +3575,7 @@
 ||novelasligeras.net^
 ||novelbuddy.com^
 ||novelbuddy.io^
+||novelbuddy.me^
 ||novelcool.com^
 ||novelfire.net^
 ||novelfull.com^
@@ -3566,6 +3601,7 @@
 ||nsmbhd.net^
 ||nswdb.com^
 ||nswgame.com^
+||nswgf.com^
 ||nswtl.info^
 ||ntfy.sh^
 ||ntrs.nasa.gov^
@@ -3621,11 +3657,13 @@
 ||ocecomic.com^
 ||ocenaudio.com^
 ||ocremix.org^
+||octogram.me^
 ||odcrawler.xyz^
 ||odesli.co^
 ||odysee.com^
 ||oedb.org^
 ||off.zchr.org^
+||officialmoviebox.com^
 ||ofoct.com^
 ||ogladajanime.pl^
 ||oh.taigi.info^
@@ -3676,6 +3714,7 @@
 ||onlineradiobox.com^
 ||onlinesequencer.net^
 ||onoflix.com^
+||onoflix.live^
 ||onoflix.ru^
 ||onyx.app^
 ||ooooooooo.ooo^
@@ -3851,6 +3890,7 @@
 ||perfectdark.benri-tool.net^
 ||perplexity.ai^
 ||perseus.tufts.edu^
+||persiamovbox.com^
 ||personal.math.ubc.ca^
 ||perspective.usherbrooke.ca^
 ||petals.dev^
@@ -3913,6 +3953,7 @@
 ||planetebook.com^
 ||planetemu.net^
 ||planetpublish.com^
+||platform.claude.com^
 ||platform.openai.com^
 ||platinmods.com^
 ||plausiblegame.com^
@@ -4134,6 +4175,7 @@
 ||pygmalion.chat^
 ||pymedusa.com^
 ||pypi.org^
+||pyrocore.readthedocs.io^
 ||pyrocore.readthedocs.org^
 ||pysolfc.sourceforge.io^
 ||python.maateen.me^
@@ -4191,6 +4233,7 @@
 ||radiostationworld.com^
 ||radiovatani.com^
 ||radioyanosik.pl^
+||radoxo.com^
 ||railjournal.in^
 ||railradar.in^
 ||rainbowhunt.com^
@@ -4228,11 +4271,13 @@
 ||raw.githubusercontent.com^
 ||raw.senmanga.com^
 ||raw1001.net^
+||rawfree.buzz^
 ||rawfree.me^
 ||rawfree.to^
 ||rawkuma.com^
 ||rawkuma.net^
 ||raylibtech.itch.io^
+||re-two-torial.xyz^
 ||re3data.org^
 ||react-guitar.com^
 ||react.tv^
@@ -4432,6 +4477,7 @@
 ||rsarchive.org^
 ||rstream.app^
 ||rtorrent-ps.readthedocs.io^
+||rtorrent.net^
 ||rtr.ch^
 ||rts.ch^
 ||rtvcplay.co^
@@ -4445,6 +4491,7 @@
 ||rukino.org^
 ||rulit.me^
 ||rumanhua.com^
+||rumanhua2.com^
 ||rumble.com^
 ||runabc.sourceforge.io^
 ||runeberg.org^
@@ -4460,6 +4507,7 @@
 ||rutracker.wiki^
 ||rutube.ru^
 ||ruverses.com^
+||ruwix.com^
 ||rwmpelstilzchen.gitlab.io^
 ||rym.fm^
 ||rytr.me^
@@ -4475,6 +4523,7 @@
 ||saicord.com^
 ||sakuranovel.id^
 ||sakuraost.com^
+||salmosonline.com^
 ||samehadaku.care^
 ||samlib.ru^
 ||sampleroulette.io^

@@ -2,12 +2,13 @@
 ! Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 1057
-! Updated: 2026-09-08 15:21:11 UTC
+! Total Rules: 1067
+! Updated: 2026-09-08 15:40:39 UTC
 
 ||0xdb.org^
 ||123animehub.cc^
 ||123movie.app^
+||123moviesfree.club^
 ||123wrestling.com^
 ||1337x.to^
 ||143190.xyz^
@@ -21,6 +22,7 @@
 ||321movies.xyz^
 ||35mm.online^
 ||4khdhub.link^
+||4khdhub.one^
 ||67movies.st^
 ||720pier.ru^
 ||7movies.in^
@@ -107,12 +109,14 @@
 ||animesuge.cz^
 ||animetosho.xyz^
 ||animevilla.in^
+||animevilla.org^
 ||animex.one^
 ||animexin.dev^
 ||aninami.site^
 ||anineko.to^
 ||anisearch.com^
 ||anisnatch.p1y.top^
+||anisnatch.site^
 ||anisnatch.top^
 ||anistream.one^
 ||anisurge.lol^
@@ -199,6 +203,7 @@
 ||cine-nest-nine.vercel.app^
 ||cine.su^
 ||cineapse.net^
+||cineby.gdn^
 ||cinebytv.com^
 ||cineflix.fstream.app^
 ||cinego.co^
@@ -268,6 +273,7 @@
 ||dmtalkies.com^
 ||docs.aiostreams.viren070.me^
 ||docs.wyzie.ru^
+||donghua4k.net^
 ||download.duafile.com^
 ||downloads-anymovies.co^
 ||downsub.com^
@@ -444,6 +450,7 @@
 ||kanopy.com^
 ||katworld.net^
 ||kawaii-anime.com^
+||kawaiianime.cc^
 ||kayoanime.com^
 ||kazora.cc^
 ||kcnawatch.us^
@@ -539,6 +546,7 @@
 ||movieparadise.org^
 ||moviepire.org^
 ||moviepooper.com^
+||moviescenemap.com^
 ||moviescountdown.com^
 ||moviesfoundonline.com^
 ||moviesnipipay.me^
@@ -612,6 +620,7 @@
 ||nyaa.si^
 ||nzonscreen.com^
 ||odysee.com^
+||officialmoviebox.com^
 ||oha.to^
 ||ok.ru^
 ||olamovies.dad^
@@ -621,6 +630,7 @@
 ||onhockey.tv^
 ||onionplay.st^
 ||onoflix.com^
+||onoflix.live^
 ||onoflix.ru^
 ||openculture.com^
 ||opensubtitles.com^

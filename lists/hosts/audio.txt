@@ -2,8 +2,8 @@
 # Description: Music streaming, lossless downloads, rippers, podcasts, and audiobooks.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 867
-# Updated: 2026-09-08 15:21:10 UTC
+# Total Rules: 870
+# Updated: 2026-09-08 15:40:39 UTC
 
 1001albumsgenerator.com
 1001tracklists.com
@@ -152,6 +152,7 @@ cloudscbr2l7prtthmz5jk5hxpndisu4ohqytsri5vyua3ksfswl7gyd.onion
 clpgs.org.uk
 cobalt.tools
 coderadio.freecodecamp.org
+composer.betterlyrics.org
 composer.boidu.dev
 concertarchives.org
 coreradio.online
@@ -434,6 +435,7 @@ moises.ai
 monochrome.samidy.com
 monochrome.tf
 moodist.app
+moodist.mvze.net
 moonphaseradio.com
 mopidy.com
 moss.garden
@@ -593,6 +595,7 @@ radiopuppy.com
 radioreference.com
 radioside.com
 radiostationworld.com
+radoxo.com
 rainbowhunt.com
 rainwave.cc
 rainymood.com

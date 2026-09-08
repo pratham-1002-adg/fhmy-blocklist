@@ -2,8 +2,8 @@
 # Description: Pirated games, ROMs, ISOs, game repacks, cracks, and emulators.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1017
-# Updated: 2026-09-08 15:21:11 UTC
+# Total Rules: 1021
+# Updated: 2026-09-08 15:40:39 UTC
 
 18xx.games
 247freepoker.com
@@ -415,6 +415,7 @@ ifwizz.de
 ikemengo.com
 incremancer.gti.nz
 incrementaldb.com
+indie.fun
 infinibrowser.wiki
 infinitewordles.org
 information-superhighway.net
@@ -595,6 +596,7 @@ ns2db.com
 nsmbhd.net
 nswdb.com
 nswgame.com
+nswgf.com
 nswtl.info
 nxbrew.net
 nycguessr.vercel.app
@@ -727,6 +729,7 @@ queensgame.io
 quenq.com
 racing.pmnd.rs
 rally-the-troops.com
+re-two-torial.xyz
 really.boring.website
 rebelwithoutarootcause.com
 recroom.network
@@ -787,6 +790,7 @@ rubikscu.be
 rubikverse.com
 ruffle.rs
 rutracker.org
+ruwix.com
 rwmpelstilzchen.gitlab.io
 sagexpo.org
 sandtris.com

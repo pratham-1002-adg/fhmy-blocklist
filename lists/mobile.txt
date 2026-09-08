@@ -2,8 +2,8 @@
 ! Description: Modded Android APKs, sideloading stores, iOS IPA repositories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 479
-! Updated: 2026-09-08 15:21:11 UTC
+! Total Rules: 481
+! Updated: 2026-09-08 15:40:39 UTC
 
 ||4pda.to^
 ||80bee.com^
@@ -309,6 +309,7 @@
 ||msi.com^
 ||mt2.cn^
 ||mumuplayer.com^
+||muntashir.dev^
 ||murglar.app^
 ||muzei.co^
 ||myal.vercel.app^
@@ -331,6 +332,7 @@
 ||nuvio.wiki^
 ||nxsha.app^
 ||obtainium.imranr.dev^
+||octogram.me^
 ||onejailbreak.com^
 ||onionbrowser.com^
 ||openbubbles.app^

@@ -2,8 +2,8 @@
 ! Description: Non-English and regional piracy, streaming, and media portals.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 1430
-! Updated: 2026-09-08 15:21:11 UTC
+! Total Rules: 1452
+! Updated: 2026-09-08 15:40:39 UTC
 
 ||1jour1film0626.site^
 ||1lou.me^
@@ -102,6 +102,7 @@
 ||animejoker.com^
 ||animelayer.ru^
 ||animelib.org^
+||animelok.live^
 ||animelok.online^
 ||animelok.to^
 ||animesalt.cx^
@@ -173,6 +174,7 @@
 ||augustocampos.net^
 ||avro.im^
 ||az-animex.com^
+||azorafly.com^
 ||azoramoon.com^
 ||babla.vn^
 ||bacalightnovel.co^
@@ -194,6 +196,7 @@
 ||baozimh.one^
 ||baozimh.org^
 ||baza-knig.ink^
+||baza-knig.top^
 ||bbs.itzmx.com^
 ||bdh.bne.es^
 ||belgeselx.com^
@@ -421,6 +424,7 @@
 ||ebookforum.sk^
 ||ebooksbrasil.org^
 ||ebs.co.kr^
+||ecoutezvosoreilles.be^
 ||edels-stube.eu^
 ||educamaisbrasil.com.br^
 ||efpfanfic.net^
@@ -530,6 +534,7 @@
 ||freekoreanfont.com^
 ||freelibros.net^
 ||frembed.casa^
+||frembed.surf^
 ||french-anime.com^
 ||french-stream.one^
 ||frixysubs.pl^
@@ -566,6 +571,7 @@
 ||goldesel.bz^
 ||goodweb.net.cn^
 ||goto10.fr^
+||goyabu.io^
 ||goyabu.to^
 ||grafikart.fr^
 ||granpirata.com^
@@ -676,6 +682,7 @@
 ||jpop.xyz^
 ||jpopsingles.eu^
 ||jpxs123.cc^
+||jpxs123.top^
 ||jref.com^
 ||justpaste.it^
 ||jyotirjagat.wordpress.com^
@@ -698,9 +705,11 @@
 ||kinoflux.biz^
 ||kinoger.com^
 ||kinogo.ec^
+||kinogo.fit^
 ||kinogo.luxury^
 ||kinogo2026.com^
 ||kinoking.cc^
+||kinokong.es^
 ||kinokong.li^
 ||kinomix.web.app^
 ||kinos.to^
@@ -708,16 +717,19 @@
 ||kinoturk.net^
 ||kinoukr.com^
 ||kinovibe.co^
+||kirmalk.com^
 ||kitab-evi.com^
 ||kkphim.com^
 ||klikxxi.art^
 ||klikxxi.com^
+||klikxxi.shop^
 ||klyingshi.com^
 ||klz9.com^
 ||kmmovies.life^
 ||kokotv.me^
 ||komiic.com^
 ||komiku.id^
+||komiku.org^
 ||kool.to^
 ||kordoz.com^
 ||korsars.pro^
@@ -727,6 +739,7 @@
 ||kreskowkasubs.blogspot.com^
 ||ktuvit.me^
 ||kultfilmler.net^
+||kultivi.com^
 ||kurdcinama.com^
 ||kurdsubtitle.net^
 ||kusonime.com^
@@ -741,9 +754,11 @@
 ||learnjapanese.moe^
 ||lectuepub4.com^
 ||lectuepubgratis3.com^
+||lectuepublibre6.com^
 ||legendaoficial.net^
 ||legendas.net^
 ||legendasbrasil.org^
+||legendei.net^
 ||lelscanfr.com^
 ||lendrive.web.id^
 ||lexmangas.com^
@@ -822,6 +837,7 @@
 ||mega1080.com^
 ||megacomicstv3.blogspot.com^
 ||megakino14.com^
+||megakino18.com^
 ||megalodon.jp^
 ||megapeliculasrip.me^
 ||megogo.net^
@@ -876,6 +892,7 @@
 ||music.com.bd^
 ||mxplayer.in^
 ||myboerse.bz^
+||mycima.gdn^
 ||mycima.gripe^
 ||mycomics.de^
 ||myflixbd.to^
@@ -898,6 +915,7 @@
 ||neobam.com^
 ||nethd.org^
 ||netmovies.com.br^
+||new.katmoviehd.top^
 ||new2.moviesdrive.christmas^
 ||ng-tech.icu^
 ||ngefilm.live^
@@ -967,6 +985,7 @@
 ||pelispedia.mov^
 ||pensarcursos.com.br^
 ||perfectdark.benri-tool.net^
+||persiamovbox.com^
 ||perspective.usherbrooke.ca^
 ||phim.nguonc.com^
 ||piaotia.com^
@@ -1039,6 +1058,7 @@
 ||raw-zip.com^
 ||raw.senmanga.com^
 ||raw1001.net^
+||rawfree.buzz^
 ||rawfree.me^
 ||rawfree.to^
 ||rawkuma.com^
@@ -1072,6 +1092,7 @@
 ||rukino.org^
 ||rulit.me^
 ||rumanhua.com^
+||rumanhua2.com^
 ||rusneb.ru^
 ||russian-records.com^
 ||rustorka.com^
@@ -1084,6 +1105,7 @@
 ||sagen.at^
 ||saicord.com^
 ||sakuranovel.id^
+||salmosonline.com^
 ||samehadaku.care^
 ||samlib.ru^
 ||sanskritdocuments.org^

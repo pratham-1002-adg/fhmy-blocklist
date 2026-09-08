@@ -2,8 +2,8 @@
 # Description: Public & private torrent trackers, indexers, and P2P search engines.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 97
-# Updated: 2026-09-08 15:21:10 UTC
+# Total Rules: 99
+# Updated: 2026-09-08 15:40:39 UTC
 
 0mag.net
 1337x-status.org
@@ -58,10 +58,12 @@ pikatorrent.com
 predataba.se
 predb.net
 privtracker.com
+pyrocore.readthedocs.io
 pyrocore.readthedocs.org
 qbittorrent.org
 rarbgdump.com
 rtorrent-ps.readthedocs.io
+rtorrent.net
 rutor.info
 rutor.is
 rutracker.net

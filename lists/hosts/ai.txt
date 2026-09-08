@@ -2,8 +2,8 @@
 # Description: AI scrapers, unsanctioned bot mirrors, model rippers, and jailbreaks.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 263
-# Updated: 2026-09-08 15:21:11 UTC
+# Total Rules: 267
+# Updated: 2026-09-08 15:40:39 UTC
 
 acapella-extractor.com
 addons.mozilla.org
@@ -78,6 +78,7 @@ dashboard.sarvam.ai
 deepspeed.ai
 deepswe.datacurve.ai
 designarena.ai
+developers.openai.com
 diffusionbee.com
 docs.claude.com
 docs.miku.gg
@@ -125,6 +126,7 @@ hyper.space
 iask.ai
 imagefree.net
 imagepromptguru.net
+invoke.ai
 iopaint.com
 itsbetterwithai.com
 jan.ai
@@ -171,6 +173,7 @@ ml-resources.vercel.app
 mmdeploy.readthedocs.io
 models.dev
 modelscope.ai
+msty.ai
 msty.app
 mubert.com
 muryou-aigazou.com
@@ -200,6 +203,7 @@ petals.dev
 photogpt.io
 pinokio.co
 pixverse.ai
+platform.claude.com
 platform.openai.com
 play.cartesia.ai
 playground.allenai.org
