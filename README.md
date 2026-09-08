@@ -43,4 +43,4 @@ Automated, high-frequency AdGuard / DNS / uBlock blocklists synchronized directl
 4. Click **Apply changes**.
 
 ---
-*Last automated sync: `2026-09-08 03:25:41 UTC`*
+*Last automated sync: `2026-09-08 03:40:27 UTC`*
