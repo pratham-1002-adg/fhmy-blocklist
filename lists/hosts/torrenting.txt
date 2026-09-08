@@ -3,7 +3,7 @@
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
 # Total Rules: 99
-# Updated: 2026-09-08 23:07:09 UTC
+# Updated: 2026-09-08 23:36:04 UTC
 
 0mag.net
 1337x-status.org
