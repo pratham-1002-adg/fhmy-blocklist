@@ -1,9 +1,9 @@
 # Title: FMHY Artificial Intelligence Blocklist (Hosts Format)
 # Description: AI scrapers, unsanctioned bot mirrors, model rippers, and jailbreaks.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
-# Generated automatically from FMHY upstream sources
+# Generated automatically from FMHY upstream sources (Accumulative)
 # Total Rules: 263
-# Updated: 2026-09-08 07:08:16 UTC
+# Updated: 2026-09-08 07:44:41 UTC
 
 acapella-extractor.com
 addons.mozilla.org

@@ -1,9 +1,9 @@
 ! Title: FMHY Direct Downloads Blocklist
 ! Description: Direct download (DDL) portals, file lockers, premium debrid services.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
-! Generated automatically from FMHY upstream sources
+! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 149
-! Updated: 2026-09-08 07:08:16 UTC
+! Updated: 2026-09-08 07:44:40 UTC
 
 ||1024teradl.com^
 ||1ddl.org^

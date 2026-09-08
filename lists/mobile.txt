@@ -1,9 +1,9 @@
 ! Title: FMHY Mobile Piracy Blocklist
 ! Description: Modded Android APKs, sideloading stores, iOS IPA repositories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
-! Generated automatically from FMHY upstream sources
+! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 479
-! Updated: 2026-09-08 07:08:16 UTC
+! Updated: 2026-09-08 07:44:41 UTC
 
 ||4pda.to^
 ||80bee.com^

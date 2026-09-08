@@ -1,9 +1,9 @@
 # Title: FMHY Gaming Blocklist (Hosts Format)
 # Description: Pirated games, ROMs, ISOs, game repacks, cracks, and emulators.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
-# Generated automatically from FMHY upstream sources
+# Generated automatically from FMHY upstream sources (Accumulative)
 # Total Rules: 1017
-# Updated: 2026-09-08 07:08:16 UTC
+# Updated: 2026-09-08 07:44:40 UTC
 
 18xx.games
 247freepoker.com

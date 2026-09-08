@@ -1,9 +1,9 @@
 ! Title: FMHY Movies & TV Streaming Blocklist
 ! Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
-! Generated automatically from FMHY upstream sources
+! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 1057
-! Updated: 2026-09-08 07:08:16 UTC
+! Updated: 2026-09-08 07:44:40 UTC
 
 ||0xdb.org^
 ||123animehub.cc^

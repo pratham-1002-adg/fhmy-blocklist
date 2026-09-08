@@ -138,49 +138,83 @@ def extract_clean_domains(markdown_text):
             
     return sorted(domains)
 
+def load_existing_domains(filepath):
+    """Loads existing domains from a previously generated blocklist file."""
+    domains = set()
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith("!") or line.startswith("#"):
+                        continue
+                    if line.startswith("||") and line.endswith("^"):
+                        domains.add(line[2:-1].lower())
+                    elif not line.startswith("0.0.0.0") and not line.startswith("127.0.0.1"):
+                        domains.add(line.lower())
+        except Exception as e:
+            print(f"  [!] Warning loading existing file {filepath}: {e}")
+    return domains
+
 def process_category(category_name, config, session):
-    """Processes a single category: fetches upstream, extracts domains, and respects fail-safe."""
+    """Processes a single category: fetches upstream, extracts domains, and accumulates newcomers."""
     print(f"\nProcessing category: {category_name.upper()} ({config['file']})...")
-    markdown_data = fetch_content_with_failover(config["file"], session)
     output_filepath = os.path.join("lists", config["output"])
+    hosts_output_filepath = os.path.join("lists", "hosts", config["output"])
+
+    # Load previously accumulated domains
+    existing_domains = load_existing_domains(output_filepath)
+    
+    markdown_data = fetch_content_with_failover(config["file"], session)
     
     # FAIL-SAFE GUARD: If all mirrors fail, preserve any pre-existing blocklist file
     if not markdown_data:
-        print(f"  [CRITICAL] All mirrors failed for {category_name}. Retaining existing file to avoid empty blocklist.")
+        print(f"  [CRITICAL] All mirrors failed for {category_name}. Retaining existing {len(existing_domains)} domains.")
+        return category_name, existing_domains if existing_domains else None
+
+    scraped_domains = set(extract_clean_domains(markdown_data))
+    
+    # Do not overwrite if regex extracted a suspiciously small count and we have no history
+    if len(scraped_domains) < 10 and len(existing_domains) == 0:
+        print(f"  [WARNING] Suspiciously low domain count ({len(scraped_domains)}). Skipping write to avoid broken list.")
         return category_name, None
 
-    domains = extract_clean_domains(markdown_data)
-    
-    # Do not overwrite if regex extracted a suspiciously small count (prevents corrupted wiki syncs)
-    if len(domains) < 10:
-        print(f"  [WARNING] Suspiciously low domain count ({len(domains)}). Skipping write to avoid broken list.")
-        return category_name, None
+    # ACCUMULATIVE STRATEGY: Union historical domains + newly discovered newcomer domains
+    combined_domains = existing_domains.union(scraped_domains)
+
+    # Filter against global excludes (in case a domain was newly whitelisted)
+    final_domains = sorted([
+        d for d in combined_domains
+        if not any(d == exc or d.endswith("." + exc) for exc in GLOBAL_EXCLUDES)
+    ])
+
+    newcomers_count = len(final_domains) - len(existing_domains)
+    print(f"  [+] Ingested {len(existing_domains)} existing + {newcomers_count} newcomers = {len(final_domains)} total rules")
 
     # Write out list in standard AdGuard / Adblock format (||domain^)
     with open(output_filepath, "w", encoding="utf-8") as f:
         f.write(f"! Title: {config['title']}\n")
         f.write(f"! Description: {config['description']}\n")
         f.write("! Syntax: AdGuard / Adblock Plus (||domain^)\n")
-        f.write("! Generated automatically from FMHY upstream sources\n")
-        f.write(f"! Total Rules: {len(domains)}\n")
+        f.write("! Generated automatically from FMHY upstream sources (Accumulative)\n")
+        f.write(f"! Total Rules: {len(final_domains)}\n")
         f.write(f"! Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
-        for domain in domains:
+        for domain in final_domains:
             f.write(f"||{domain}^\n")
 
     # Also write out in standard Plain Domain / Hosts format (personalDNSfilter, Pi-hole)
-    hosts_output_filepath = os.path.join("lists", "hosts", config["output"])
     with open(hosts_output_filepath, "w", encoding="utf-8") as f:
         f.write(f"# Title: {config['title']} (Hosts Format)\n")
         f.write(f"# Description: {config['description']}\n")
         f.write("# Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)\n")
-        f.write("# Generated automatically from FMHY upstream sources\n")
-        f.write(f"# Total Rules: {len(domains)}\n")
+        f.write("# Generated automatically from FMHY upstream sources (Accumulative)\n")
+        f.write(f"# Total Rules: {len(final_domains)}\n")
         f.write(f"# Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
-        for domain in domains:
+        for domain in final_domains:
             f.write(f"{domain}\n")
             
-    print(f"  [SUCCESS] Wrote {len(domains)} rules to {output_filepath} and {hosts_output_filepath}")
-    return category_name, domains
+    print(f"  [SUCCESS] Wrote {len(final_domains)} rules to {output_filepath} and {hosts_output_filepath}")
+    return category_name, final_domains
 
 def update_readme(category_stats, all_domains_count):
     """Generates an informative README with copyable subscription links and rule metrics."""
@@ -292,13 +326,18 @@ def main():
     # Write unified all-in-one blocklists
     all_output_filepath = os.path.join("lists", "all.txt")
     all_hosts_output_filepath = os.path.join("lists", "hosts", "all.txt")
+    
+    # Accumulate previous master domains as well
+    existing_master = load_existing_domains(all_output_filepath)
+    master_domains.update(existing_master)
+    
     if len(master_domains) >= 10:
         sorted_all = sorted(master_domains)
         with open(all_output_filepath, "w", encoding="utf-8") as f:
             f.write("! Title: FMHY Master All-in-One Blocklist\n")
             f.write("! Description: Complete merged and deduplicated rules from all FMHY categories.\n")
             f.write("! Syntax: AdGuard / Adblock Plus (||domain^)\n")
-            f.write("! Generated automatically from FMHY upstream sources\n")
+            f.write("! Generated automatically from FMHY upstream sources (Accumulative)\n")
             f.write(f"! Total Rules: {len(sorted_all)}\n")
             f.write(f"! Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
             for domain in sorted_all:

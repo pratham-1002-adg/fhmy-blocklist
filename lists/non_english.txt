@@ -1,9 +1,9 @@
 ! Title: FMHY International Piracy Blocklist
 ! Description: Non-English and regional piracy, streaming, and media portals.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
-! Generated automatically from FMHY upstream sources
+! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 1430
-! Updated: 2026-09-08 07:08:16 UTC
+! Updated: 2026-09-08 07:44:41 UTC
 
 ||1jour1film0626.site^
 ||1lou.me^

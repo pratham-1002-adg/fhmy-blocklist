@@ -1,9 +1,9 @@
 ! Title: FMHY Books & Comics Blocklist
 ! Description: E-books, textbooks, comics, manga, light novels, and magazines.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
-! Generated automatically from FMHY upstream sources
+! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 841
-! Updated: 2026-09-08 07:08:16 UTC
+! Updated: 2026-09-08 07:44:40 UTC
 
 ||1lib.sk^
 ||2012books.lardbucket.org^

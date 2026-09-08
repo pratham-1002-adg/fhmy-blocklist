@@ -1,9 +1,9 @@
 ! Title: FMHY Master All-in-One Blocklist
 ! Description: Complete merged and deduplicated rules from all FMHY categories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
-! Generated automatically from FMHY upstream sources
+! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 5964
-! Updated: 2026-09-08 07:08:16 UTC
+! Updated: 2026-09-08 07:44:41 UTC
 
 ||0mag.net^
 ||0xdb.org^
