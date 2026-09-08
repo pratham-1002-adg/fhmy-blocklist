@@ -166,8 +166,20 @@ def process_category(category_name, config, session):
         f.write(f"! Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
         for domain in domains:
             f.write(f"||{domain}^\n")
+
+    # Also write out in standard Plain Domain / Hosts format (personalDNSfilter, Pi-hole)
+    hosts_output_filepath = os.path.join("lists", "hosts", config["output"])
+    with open(hosts_output_filepath, "w", encoding="utf-8") as f:
+        f.write(f"# Title: {config['title']} (Hosts Format)\n")
+        f.write(f"# Description: {config['description']}\n")
+        f.write("# Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)\n")
+        f.write("# Generated automatically from FMHY upstream sources\n")
+        f.write(f"# Total Rules: {len(domains)}\n")
+        f.write(f"# Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
+        for domain in domains:
+            f.write(f"{domain}\n")
             
-    print(f"  [SUCCESS] Wrote {len(domains)} rules to {output_filepath}")
+    print(f"  [SUCCESS] Wrote {len(domains)} rules to {output_filepath} and {hosts_output_filepath}")
     return category_name, domains
 
 def update_readme(category_stats, all_domains_count):
@@ -181,44 +193,63 @@ def update_readme(category_stats, all_domains_count):
     
     readme_content = f"""# FMHY Multi-Category Blocklists
 
-Automated, high-frequency AdGuard / DNS / uBlock blocklists synchronized directly from the **FreeMediaHeckYeah (FMHY)** upstream project.
+Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists synchronized directly from the **FreeMediaHeckYeah (FMHY)** upstream project.
 
 ### Key Architectural Highlights
+- **Dual Syntax Available**:
+  - **Hosts / Plain Domain (`domain`)**: For **personalDNSfilter (pDNSf)**, Pi-hole, and local DNS resolvers.
+  - **AdGuard / Adblock Plus (`||domain^`)**: For AdGuard Home, AdGuard apps, and uBlock Origin.
 - **Multi-Source Failover**: Upstream sources query GitHub Raw, jsDelivr CDN, and GitLab live mirrors sequentially.
 - **Fail-Safe Integrity**: If an upstream outage occurs, previous blocklists are strictly retained and never wiped.
 - **Pick-and-Choose Categories**: Subscribe only to the specific categories you wish to enforce, or use the unified master list.
 - **Fast Synchronization**: Scheduled runs update in near real-time via GitHub Actions.
-- **Standard Syntax**: Formatted in standard `||domain^` syntax for AdGuard Home, AdGuard Android/Windows/iOS, Pi-hole, RethinkDNS, and uBlock Origin.
 
 ---
 
 ## Blocklist Categories & Subscription URLs
 
-| Category | Description | Rules | Raw GitHub Link | Fast CDN Link |
-| :--- | :--- | :---: | :--- | :--- |
-| **All-in-One (Master)** | Merged & deduplicated master list of all categories | `{all_domains_count:,}` | [`all.txt`]({raw_base}/all.txt) | [`all.txt`]({cdn_base}/all.txt) |
+### 1. Hosts / Plain Domain Format (For personalDNSfilter & Pi-hole)
+
+| Category | Rules | Raw GitHub Link (personalDNSfilter) | Fast CDN Link |
+| :--- | :---: | :--- | :--- |
+| **All-in-One (Master)** | `{all_domains_count:,}` | [`lists/hosts/all.txt`]({raw_base}/hosts/all.txt) | [`hosts/all.txt`]({cdn_base}/hosts/all.txt) |
 """
     for cat_key, config in CATEGORIES.items():
         count = category_stats.get(cat_key, 0)
         output_file = config["output"]
-        readme_content += f"| **{config['title'].replace('FMHY ', '').replace(' Blocklist', '')}** | {config['description']} | `{count:,}` | [`{output_file}`]({raw_base}/{output_file}) | [`{output_file}`]({cdn_base}/{output_file}) |\n"
+        readme_content += f"| **{config['title'].replace('FMHY ', '').replace(' Blocklist', '')}** | `{count:,}` | [`{output_file}`]({raw_base}/hosts/{output_file}) | [`{output_file}`]({cdn_base}/hosts/{output_file}) |\n"
+
+    readme_content += f"""
+### 2. AdGuard / Adblock Syntax Format (`||domain^`)
+
+| Category | Rules | Raw GitHub Link (AdGuard Home / uBlock) | Fast CDN Link |
+| :--- | :---: | :--- | :--- |
+| **All-in-One (Master)** | `{all_domains_count:,}` | [`lists/all.txt`]({raw_base}/all.txt) | [`all.txt`]({cdn_base}/all.txt) |
+"""
+    for cat_key, config in CATEGORIES.items():
+        count = category_stats.get(cat_key, 0)
+        output_file = config["output"]
+        readme_content += f"| **{config['title'].replace('FMHY ', '').replace(' Blocklist', '')}** | `{count:,}` | [`{output_file}`]({raw_base}/{output_file}) | [`{output_file}`]({cdn_base}/{output_file}) |\n"
 
     readme_content += f"""
 ---
 
-## How to Add to Your Adblocker / DNS
+## How to Add to Your Tool
+
+### personalDNSfilter (pDNSf) on Android
+1. Open personalDNSfilter -> **Advanced settings** -> **Configure filter update**.
+2. Tap the edit pencil on `<new>` (or existing slot).
+3. Name: `FMHY Master (Hosts)`
+4. URL: `{raw_base}/hosts/all.txt` (or `{raw_base}/hosts/streaming.txt`)
+5. Check the box `☑` to activate.
+6. Return to main screen and tap **`RELOAD FILTER`**.
 
 ### AdGuard Home
 1. Navigate to **Filters** -> **DNS blocklists**.
 2. Click **Add blocklist** -> **Add a custom list**.
-3. Enter a name (e.g. `FMHY Streaming`) and paste the **Raw GitHub Link** or **Fast CDN Link**.
-4. Click **Save**.
-
-### uBlock Origin / Brave Shields
-1. Open the Extension Settings -> **Filter lists**.
-2. Scroll to **Custom** at the bottom.
-3. Check the box and paste the link.
-4. Click **Apply changes**.
+3. Name: `FMHY Master`
+4. URL: `{raw_base}/all.txt`
+5. Click **Save**.
 
 ---
 *Last automated sync: `{now_str}`*
@@ -229,6 +260,7 @@ Automated, high-frequency AdGuard / DNS / uBlock blocklists synchronized directl
 
 def main():
     os.makedirs("lists", exist_ok=True)
+    os.makedirs(os.path.join("lists", "hosts"), exist_ok=True)
     session = requests.Session()
     session.headers.update({"User-Agent": "FMHY-Blocklist-Sync-Agent/2.0"})
     
@@ -257,8 +289,9 @@ def main():
                 else:
                     category_results[cat_name] = 0
 
-    # Write unified all-in-one blocklist
+    # Write unified all-in-one blocklists
     all_output_filepath = os.path.join("lists", "all.txt")
+    all_hosts_output_filepath = os.path.join("lists", "hosts", "all.txt")
     if len(master_domains) >= 10:
         sorted_all = sorted(master_domains)
         with open(all_output_filepath, "w", encoding="utf-8") as f:
@@ -270,7 +303,18 @@ def main():
             f.write(f"! Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
             for domain in sorted_all:
                 f.write(f"||{domain}^\n")
-        print(f"\n[MASTER LIST] Wrote {len(sorted_all)} deduplicated rules to {all_output_filepath}")
+
+        with open(all_hosts_output_filepath, "w", encoding="utf-8") as f:
+            f.write("# Title: FMHY Master All-in-One Blocklist (Hosts Format)\n")
+            f.write("# Description: Complete merged and deduplicated rules from all FMHY categories.\n")
+            f.write("# Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)\n")
+            f.write("# Generated automatically from FMHY upstream sources\n")
+            f.write(f"# Total Rules: {len(sorted_all)}\n")
+            f.write(f"# Updated: {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n\n")
+            for domain in sorted_all:
+                f.write(f"{domain}\n")
+
+        print(f"\n[MASTER LIST] Wrote {len(sorted_all)} deduplicated rules to {all_output_filepath} and {all_hosts_output_filepath}")
 
     # Generate comprehensive README with subscription links
     update_readme(category_results, len(master_domains))
