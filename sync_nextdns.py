@@ -244,7 +244,7 @@ def main():
     parser.add_argument("--action", default=os.environ.get("NEXTDNS_ACTION", "sync"),
                         choices=["sync", "remove"],
                         help="Action: 'sync' to add newcomer domains, 'remove' to remove FMHY domains from NextDNS")
-    parser.add_argument("--categories", default=os.environ.get("NEXTDNS_CATEGORIES", "streaming","non_english"),
+    parser.add_argument("--categories", default=os.environ.get("NEXTDNS_CATEGORIES", "streaming"),
                         help="Comma-separated categories to sync/remove (e.g. 'streaming', 'gaming,torrenting', or 'all')")
     parser.add_argument("--profiles", default=os.environ.get("NEXTDNS_PROFILES", os.environ.get("NEXTDNS_PROFILE", "")),
                         help="Comma-separated NextDNS Profile IDs (e.g. 'a1b2c3,d4e5f6')")
