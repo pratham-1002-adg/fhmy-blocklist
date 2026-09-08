@@ -3,7 +3,7 @@
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
 # Total Rules: 1021
-# Updated: 2026-09-08 19:06:14 UTC
+# Updated: 2026-09-08 19:37:08 UTC
 
 18xx.games
 247freepoker.com
