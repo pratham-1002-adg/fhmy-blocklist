@@ -17,7 +17,7 @@ on:
       categories:
         description: 'Categories to sync or remove (e.g. streaming, gaming, or all)'
         required: false
-        default: 'streaming'
+        default: 'streaming, non_english'
         type: string
       profiles:
         description: 'Override Profile IDs (comma-separated). Leave empty to use repo secret'
