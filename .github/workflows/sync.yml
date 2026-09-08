@@ -1,10 +1,21 @@
-name: Fast Sync FMHY Blocklists
+name: Fast Sync FMHY Blocklists & NextDNS
 
 on:
   schedule:
-    # Runs every 15 minutes (fastest reliable interval before runner queue throttling)
-    - cron: '*/15 * * * *'
-  workflow_dispatch: # Allows manual run button in GitHub UI
+    # Runs every 30 minutes for fast sync
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      categories:
+        description: 'Categories to sync (e.g. streaming, gaming, or all)'
+        required: false
+        default: 'streaming'
+        type: string
+      profiles:
+        description: 'Override Profile IDs (comma-separated). Leave empty to use repo secret'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   build-and-sync:
@@ -24,7 +35,7 @@ jobs:
       - name: Install requirements
         run: pip install requests
 
-      - name: Run Multi-Category Generator
+      - name: Run Multi-Category Generator (Accumulative)
         run: python build_lists.py
 
       - name: Commit and Push Changes (If Modified)
@@ -38,3 +49,16 @@ jobs:
           else
             echo "No upstream changes detected across categories."
           fi
+
+      - name: Sync to NextDNS Profiles (Cloud Denylist)
+        env:
+          NEXTDNS_API_KEY: ${{ secrets.NEXTDNS_API_KEY }}
+          NEXTDNS_PROFILES: ${{ github.event.inputs.profiles || secrets.NEXTDNS_PROFILES }}
+          NEXTDNS_CATEGORIES: ${{ github.event.inputs.categories || vars.NEXTDNS_CATEGORIES || 'streaming' }}
+        run: |
+          if [ -z "$NEXTDNS_API_KEY" ] || [ -z "$NEXTDNS_PROFILES" ]; then
+            echo "[INFO] NEXTDNS_API_KEY or NEXTDNS_PROFILES secret not configured."
+            echo "[INFO] Skipping NextDNS cloud sync. (Add them in GitHub Repo Settings -> Secrets to enable)."
+            exit 0
+          fi
+          python sync_nextdns.py
