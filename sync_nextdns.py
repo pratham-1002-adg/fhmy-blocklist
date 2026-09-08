@@ -105,12 +105,12 @@ def add_single_domain(session, profile_id, domain):
     payload = {"id": domain, "active": True}
     try:
         res = session.post(url, json=payload, timeout=10)
-        if res.status_code in [200, 201]:
+        if res.status_code in [200, 201, 204]:
             return True, domain
         elif res.status_code == 429:
             time.sleep(2)
             res = session.post(url, json=payload, timeout=10)
-            return res.status_code in [200, 201], domain
+            return res.status_code in [200, 201, 204], domain
         else:
             return False, f"{domain} (HTTP {res.status_code}: {res.text})"
     except Exception as e:
@@ -121,12 +121,12 @@ def remove_single_domain(session, profile_id, domain):
     url = f"{NEXTDNS_API_BASE}/{profile_id}/denylist/{domain}"
     try:
         res = session.delete(url, timeout=10)
-        if res.status_code in [200, 204]:
+        if res.status_code in [200, 201, 204]:
             return True, domain
         elif res.status_code == 429:
             time.sleep(2)
             res = session.delete(url, timeout=10)
-            return res.status_code in [200, 204], domain
+            return res.status_code in [200, 201, 204], domain
         elif res.status_code == 404:
             # Domain is already gone
             return True, domain

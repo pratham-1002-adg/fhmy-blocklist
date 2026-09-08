@@ -70,4 +70,4 @@ jobs:
             echo "[INFO] Skipping NextDNS cloud sync. (Add them in GitHub Repo Settings -> Secrets to enable)."
             exit 0
           fi
-          python sync_nextdns.py
+          python -u sync_nextdns.py
