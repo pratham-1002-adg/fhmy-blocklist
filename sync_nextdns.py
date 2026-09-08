@@ -116,10 +116,29 @@ def add_single_domain(session, profile_id, domain):
     except Exception as e:
         return False, f"{domain} (Exception: {e})"
 
+def remove_single_domain(session, profile_id, domain):
+    """Deletes a single domain from NextDNS denylist with rate-limit safety."""
+    url = f"{NEXTDNS_API_BASE}/{profile_id}/denylist/{domain}"
+    try:
+        res = session.delete(url, timeout=10)
+        if res.status_code in [200, 204]:
+            return True, domain
+        elif res.status_code == 429:
+            time.sleep(2)
+            res = session.delete(url, timeout=10)
+            return res.status_code in [200, 204], domain
+        elif res.status_code == 404:
+            # Domain is already gone
+            return True, domain
+        else:
+            return False, f"{domain} (HTTP {res.status_code}: {res.text})"
+    except Exception as e:
+        return False, f"{domain} (Exception: {e})"
+
 def sync_profile(session, profile_id, target_domains, max_workers=5):
     """Synchronizes target domains to a specific NextDNS profile."""
     print(f"\n{'='*60}")
-    print(f"[*] Starting Sync for Profile ID: {profile_id}")
+    print(f"[*] Starting Sync (Add Newcomers) for Profile ID: {profile_id}")
     print(f"{'='*60}")
     
     current_domains = get_current_denylist(session, profile_id)
@@ -165,10 +184,68 @@ def sync_profile(session, profile_id, target_domains, max_workers=5):
 
     return True
 
+def remove_fmhy_domains_from_profile(session, profile_id, fmhy_domains, max_workers=5):
+    """Removes only FMHY domains from NextDNS, strictly leaving personal domains untouched."""
+    print(f"\n{'='*60}")
+    print(f"[*] Starting FMHY Removal for Profile ID: {profile_id}")
+    print(f"{'='*60}")
+    
+    current_domains = get_current_denylist(session, profile_id)
+    if current_domains is None:
+        return False
+
+    print(f"[i] Profile {profile_id}: Currently has {len(current_domains)} total rules in NextDNS.")
+
+    # Mathematical intersection: ONLY remove domains that match FMHY list
+    to_remove = sorted(current_domains.intersection(fmhy_domains))
+    personal_rules_kept = current_domains - fmhy_domains
+
+    print(f"[i] Personal custom rules identified to PRESERVE: {len(personal_rules_kept)}")
+    if personal_rules_kept:
+        sample = list(personal_rules_kept)[:5]
+        print(f"    (e.g., {sample}...) will NOT be touched.")
+
+    if not to_remove:
+        print(f"[✓] Profile {profile_id}: No FMHY domains found in NextDNS. Nothing to remove.")
+        return True
+
+    print(f"[-] Found {len(to_remove)} FMHY domains to remove from Profile {profile_id}...")
+
+    success_count = 0
+    fail_count = 0
+    failed_details = []
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(remove_single_domain, session, profile_id, domain): domain for domain in to_remove}
+        for idx, future in enumerate(as_completed(futures), 1):
+            ok, result = future.result()
+            if ok:
+                success_count += 1
+            else:
+                fail_count += 1
+                failed_details.append(result)
+            
+            if idx % 100 == 0 or idx == len(to_remove):
+                print(f"    -> Progress: {idx}/{len(to_remove)} removed ({success_count} succeeded, {fail_count} failed)")
+
+    print(f"\n[✓] Profile {profile_id} Removal Completed:")
+    print(f"    - Removed FMHY Domains: {success_count}")
+    print(f"    - Failed: {fail_count}")
+    print(f"    - Personal Rules Kept Safe: {len(personal_rules_kept)}")
+    print(f"    - Remaining Active in NextDNS: {len(current_domains) - success_count}")
+
+    if failed_details:
+        print(f"    - First few failures: {failed_details[:5]}")
+
+    return True
+
 def main():
-    parser = argparse.ArgumentParser(description="Sync FMHY blocklists to NextDNS Denylist.")
+    parser = argparse.ArgumentParser(description="Sync or Remove FMHY blocklists on NextDNS Denylist.")
+    parser.add_argument("--action", default=os.environ.get("NEXTDNS_ACTION", "sync"),
+                        choices=["sync", "remove"],
+                        help="Action: 'sync' to add newcomer domains, 'remove' to remove FMHY domains from NextDNS")
     parser.add_argument("--categories", default=os.environ.get("NEXTDNS_CATEGORIES", "streaming"),
-                        help="Comma-separated categories to sync (e.g. 'streaming', 'gaming,torrenting', or 'all')")
+                        help="Comma-separated categories to sync/remove (e.g. 'streaming', 'gaming,torrenting', or 'all')")
     parser.add_argument("--profiles", default=os.environ.get("NEXTDNS_PROFILES", os.environ.get("NEXTDNS_PROFILE", "")),
                         help="Comma-separated NextDNS Profile IDs (e.g. 'a1b2c3,d4e5f6')")
     parser.add_argument("--api-key", default=os.environ.get("NEXTDNS_API_KEY", ""),
@@ -180,6 +257,7 @@ def main():
     api_key = args.api_key.strip()
     profiles_str = args.profiles.strip()
     categories_str = args.categories.strip()
+    action = args.action.strip().lower()
 
     if not api_key:
         print("[CRITICAL] Missing NextDNS API Key. Set NEXTDNS_API_KEY environment variable or pass --api-key.")
@@ -192,34 +270,38 @@ def main():
     profiles = [p.strip() for p in profiles_str.split(",") if p.strip()]
     
     print("="*60)
-    print("NextDNS Multi-Profile & Multi-Category Synchronizer")
+    print(f"NextDNS Manager | Action: {action.upper()}")
     print("="*60)
     print(f"Target Profiles : {profiles}")
     print(f"Categories      : {categories_str}")
     print(f"Worker Threads  : {args.workers}")
     print("="*60)
 
-    # 1. Load target domains
+    # 1. Load target FMHY domains
     target_domains = load_target_domains(categories_str)
     if not target_domains:
-        print("[!] No target domains found. Exiting.")
+        print("[!] No target domains found for specified categories. Exiting.")
         sys.exit(1)
 
-    print(f"[+] Total unique target rules to enforce: {len(target_domains):,}")
+    print(f"[+] Loaded {len(target_domains):,} FMHY category domains.")
 
-    # 2. Sync to all profiles sequentially
+    # 2. Execute action across all profiles
     session = create_resilient_session(api_key)
     overall_success = True
     for profile_id in profiles:
-        ok = sync_profile(session, profile_id, target_domains, max_workers=args.workers)
+        if action == "remove":
+            ok = remove_fmhy_domains_from_profile(session, profile_id, target_domains, max_workers=args.workers)
+        else:
+            ok = sync_profile(session, profile_id, target_domains, max_workers=args.workers)
+            
         if not ok:
             overall_success = False
 
     print(f"\n{'='*60}")
     if overall_success:
-        print("[SUCCESS] All profiles synced successfully with NextDNS!")
+        print(f"[SUCCESS] Action '{action}' completed successfully for all profiles!")
     else:
-        print("[WARNING] One or more profiles encountered errors during sync.")
+        print(f"[WARNING] Action '{action}' encountered errors for one or more profiles.")
     print("="*60)
 
 if __name__ == "__main__":

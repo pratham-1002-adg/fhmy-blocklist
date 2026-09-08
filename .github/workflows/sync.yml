@@ -6,8 +6,16 @@ on:
     - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
+      action:
+        description: 'Action: sync (add new domains) or remove (remove FMHY domains)'
+        required: false
+        default: 'sync'
+        type: choice
+        options:
+          - sync
+          - remove
       categories:
-        description: 'Categories to sync (e.g. streaming, gaming, or all)'
+        description: 'Categories to sync or remove (e.g. streaming, gaming, or all)'
         required: false
         default: 'streaming'
         type: string
@@ -55,6 +63,7 @@ jobs:
           NEXTDNS_API_KEY: ${{ secrets.NEXTDNS_API_KEY }}
           NEXTDNS_PROFILES: ${{ github.event.inputs.profiles || secrets.NEXTDNS_PROFILES }}
           NEXTDNS_CATEGORIES: ${{ github.event.inputs.categories || vars.NEXTDNS_CATEGORIES || 'streaming' }}
+          NEXTDNS_ACTION: ${{ github.event.inputs.action || 'sync' }}
         run: |
           if [ -z "$NEXTDNS_API_KEY" ] || [ -z "$NEXTDNS_PROFILES" ]; then
             echo "[INFO] NEXTDNS_API_KEY or NEXTDNS_PROFILES secret not configured."
