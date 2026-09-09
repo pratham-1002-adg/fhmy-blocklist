@@ -2,8 +2,8 @@
 ! Description: Music streaming, lossless downloads, rippers, podcasts, and audiobooks.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 870
-! Updated: 2026-09-09 13:40:42 UTC
+! Total Rules: 877
+! Updated: 2026-09-09 14:07:09 UTC
 
 ||1001albumsgenerator.com^
 ||1001tracklists.com^
@@ -42,6 +42,7 @@
 ||alirezakj.com^
 ||allmusic.com^
 ||alterportal.net^
+||altmusictv.com^
 ||ambicular.com^
 ||ambieapp.com^
 ||ambient-mixer.com^
@@ -111,6 +112,7 @@
 ||bitmidi.com^
 ||blacktorrent.ru^
 ||bleh.katelyn.moe^
+||bleh.yuzu.pet^
 ||bootleg.fm^
 ||boxradio.net^
 ||braggoscope.com^
@@ -194,6 +196,7 @@
 ||draw.audio^
 ||drawbeats.com^
 ||driveandlisten.app^
+||drivefromhome.com^
 ||drivenlisten.com^
 ||drumbit.app^
 ||drumha.us^
@@ -287,6 +290,7 @@
 ||harmonoid.com^
 ||hasitleaked.com^
 ||hate5six.com^
+||hayasaka.8man.in^
 ||hayasaka.vercel.app^
 ||hdmixtapes.org^
 ||heavymetalrarities.com^
@@ -339,6 +343,7 @@
 ||kdramaost.com^
 ||keygenmusic.tk^
 ||khinsider.squid.wtf^
+||khuh.fm^
 ||kid3.kde.org^
 ||kiddierecords.com^
 ||kilohearts.com^
@@ -698,6 +703,7 @@
 ||soundcloud.com^
 ||soundgator.com^
 ||soundhound.com^
+||soundimage.org^
 ||soundinstants.com^
 ||soundpacks.com^
 ||sounds.spriters-resource.com^
@@ -807,6 +813,7 @@
 ||upbeatradio.net^
 ||uppbeat.io^
 ||utaitedb.net^
+||utatime.com^
 ||utauguides.carrd.co^
 ||vaporarchive.neocities.org^
 ||vcvrack.com^

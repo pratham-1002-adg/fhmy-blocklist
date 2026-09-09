@@ -2,8 +2,8 @@
 ! Description: Complete merged and deduplicated rules from all FMHY categories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 6013
-! Updated: 2026-09-09 13:40:42 UTC
+! Total Rules: 6070
+! Updated: 2026-09-09 14:07:12 UTC
 
 ||0mag.net^
 ||0xdb.org^
@@ -35,7 +35,9 @@
 ||1max.top^
 ||1shows.org^
 ||1tamilblasters.luxe^
+||1tamilblasters.tech^
 ||1tamilcrow.net^
+||1tamilmv.meme^
 ||1tamilmv.observer^
 ||1tamilyogi.me^
 ||1tamilyogi.ro^
@@ -56,6 +58,7 @@
 ||2ix2.com^
 ||321movies.xyz^
 ||35mm.online^
+||35ppt.com^
 ||36mh.org^
 ||3dsdb.com^
 ||3dsroms.org^
@@ -70,6 +73,7 @@
 ||4shared.com^
 ||5000best.com^
 ||5165.org^
+||52shuku.net^
 ||52shuku.vip^
 ||5movierulz.markets^
 ||5nd.com^
@@ -182,6 +186,7 @@
 ||aimath.org^
 ||aimp.ru^
 ||airwindows.com^
+||aistudio.tencent.com^
 ||aistudio.xiaomimimo.com^
 ||aiva.ai^
 ||aivocal.io^
@@ -227,6 +232,7 @@
 ||alternativeto.net^
 ||alterportal.net^
 ||althub.co.za^
+||altmusictv.com^
 ||altsource.by.lao.sb^
 ||altstore.io^
 ||amarboi.com^
@@ -278,6 +284,7 @@
 ||anidoor.me^
 ||anidub.pro^
 ||anifilm.net^
+||anifilm.pro^
 ||aniflix.uno^
 ||anify.to^
 ||aniguessr.com^
@@ -314,6 +321,7 @@
 ||anime7.download^
 ||animeav1.com^
 ||animebalkan.gg^
+||animebalkan.org^
 ||animebatch.id^
 ||animebloodsub.net^
 ||animecharactersdatabase.com^
@@ -353,6 +361,7 @@
 ||animeslayer.to^
 ||animesonglyrics.com^
 ||animesrbija.com^
+||animesss.com^
 ||animestars.org^
 ||animesub.info^
 ||animesubtitle.ir^
@@ -391,6 +400,7 @@
 ||anitube.in.ua^
 ||anivibe.live^
 ||aniwatch.icu^
+||aniwatchtv.cx^
 ||aniwaves.ru^
 ||aniworld.domains^
 ||aniworld.to^
@@ -476,6 +486,7 @@
 ||apt.izzysoft.de^
 ||aqstream.com^
 ||aquareader.net^
+||aquilereader.in^
 ||ar.kenmanga.com^
 ||ar.mo3jam.com^
 ||arabic-toons.com^
@@ -653,6 +664,7 @@
 ||baozimh.com^
 ||baozimh.one^
 ||baozimh.org^
+||basementx.lol^
 ||basementx.pro^
 ||basementx.xyz^
 ||bash.tv^
@@ -724,6 +736,7 @@
 ||bibliotecapleyades.net^
 ||bibliotecasecreta.nl^
 ||biblus.in^
+||biblus.org^
 ||bigbadwaffle.itch.io^
 ||biglybt.com^
 ||bignox.com^
@@ -758,6 +771,7 @@
 ||blacktorrent.ru^
 ||blatants.fyi^
 ||bleh.katelyn.moe^
+||bleh.yuzu.pet^
 ||blindfold-chess.online^
 ||blockle.au^
 ||blog.decryption.net.au^
@@ -913,6 +927,7 @@
 ||catfishing.net^
 ||catima.app^
 ||catocr.com^
+||cb01uno.homes^
 ||cb01uno.world^
 ||cbeta.org^
 ||ccamc.co^
@@ -1070,6 +1085,7 @@
 ||cleanlinks.app^
 ||cli.club^
 ||click-relax.com^
+||click-sud.pro^
 ||clicksud.co^
 ||clicksud.com.in^
 ||client.eaglercraft.win^
@@ -1388,6 +1404,7 @@
 ||dles.aukspot.com^
 ||dles.gg^
 ||dlhd.st^
+||dlhd.sx^
 ||dli.sanskritdictionary.com^
 ||dlivros.com^
 ||dlpsgame.com^
@@ -1474,6 +1491,7 @@
 ||dramacooli.buzz^
 ||dramacountdown.com^
 ||dramaday.me^
+||dramafren.org^
 ||dramahood.mom^
 ||dramanice.boo^
 ||dramaq.xyz^
@@ -1486,6 +1504,7 @@
 ||dreamina.capcut.com^
 ||drifted.com^
 ||driveandlisten.app^
+||drivefromhome.com^
 ||drivenlisten.com^
 ||droidify.app^
 ||dropbox.com^
@@ -1550,6 +1569,7 @@
 ||echowalk.com^
 ||eclipseemu.me^
 ||eclipsemusic.app^
+||ecosia.org^
 ||ecoutezvosoreilles.be^
 ||edels-stube.eu^
 ||editor.audio^
@@ -1769,6 +1789,7 @@
 ||feudalwars.net^
 ||ff6hacking.com^
 ||ffhacktics.com^
+||ffmovies.org^
 ||ffmpeg.org^
 ||ffxs8.com^
 ||fibwatch.art^
@@ -2000,6 +2021,7 @@
 ||frostyapp.io^
 ||fsh.zone^
 ||fsharetv.co^
+||fstream.app^
 ||fstream.info^
 ||fstv.rest^
 ||fuckdm.ca^
@@ -2039,6 +2061,7 @@
 ||gallica.bnf.fr^
 ||gam.onl^
 ||gamatotv.info^
+||gamatotv.miami^
 ||gamdie.com^
 ||game-box.win^
 ||game-game.com^
@@ -2112,12 +2135,14 @@
 ||getzbra.com^
 ||gfw.report^
 ||ggflix.live^
+||ggflix.pro^
 ||ghisler.com^
 ||ghproxy.link^
 ||gidd.io^
 ||gimytw.cc^
 ||gingadaddy.com^
 ||git.do.srb2.org^
+||git.launchpad.net^
 ||git.private.coffee^
 ||git.rebelonion.dev^
 ||git.seextended.org^
@@ -2165,6 +2190,7 @@
 ||gogoanimez.cc^
 ||gokuhd.com^
 ||goldenaudiobook.net^
+||goldenaudiobooks.com^
 ||goldesel.bz^
 ||goldhiphop.pro^
 ||golfparty.io^
@@ -2259,6 +2285,7 @@
 ||hangarceviri.com^
 ||haodoo.org^
 ||happyhardcore.com^
+||harbor.elfhosted.com^
 ||harbor.site^
 ||hardbase.fm^
 ||hardcover.app^
@@ -2273,6 +2300,7 @@
 ||hattrick.org^
 ||hattusa.club^
 ||haxball.com^
+||hayasaka.8man.in^
 ||hayasaka.vercel.app^
 ||hayase.watch^
 ||hbpms.blogspot.com^
@@ -2281,6 +2309,7 @@
 ||hdclump.com^
 ||hdencode.org^
 ||hdfilmcehennemi.nl^
+||hdhub4u.bi^
 ||hdhub4u.ec^
 ||hdmixtapes.org^
 ||hdmovieshub.fyi^
@@ -2304,6 +2333,7 @@
 ||hexa.su^
 ||hexar.io^
 ||hexcodle.com^
+||hexhearth.live^
 ||hexhearth.lovable.app^
 ||hexrom.com^
 ||hexxagon.com^
@@ -2362,6 +2392,7 @@
 ||huggingface.co^
 ||huhu.to^
 ||hume.ai^
+||humin.org^
 ||humnom.net^
 ||humungus-cinebisart.blogspot.com^
 ||hungama.com^
@@ -2506,6 +2537,7 @@
 ||isaimini.com.co^
 ||isfdb.org^
 ||ish.app^
+||ish.chat^
 ||isitreallyfoss.com^
 ||iskin.tooliphone.net^
 ||isleward.com^
@@ -2638,10 +2670,13 @@
 ||ketsu.app^
 ||kevin.games^
 ||keyboard.futo.org^
+||keyboard.futo.tech^
 ||keygenmusic.tk^
 ||keyman.com^
+||keymapper.app^
 ||kfchess.com^
 ||khinsider.squid.wtf^
+||khuh.fm^
 ||kiboanime.app^
 ||kickassapp.com^
 ||kickasssubtitles.com^
@@ -2681,6 +2716,8 @@
 ||kinostrain.com^
 ||kinoturk.net^
 ||kinoukr.com^
+||kinoukr.tv^
+||kinovibe.cc^
 ||kinovibe.co^
 ||kira.vercel.app^
 ||kirastudio.org^
@@ -2691,6 +2728,7 @@
 ||kisskh.fr^
 ||kisskh.id^
 ||kisskh.is^
+||kisskh.or.at^
 ||kisskh.ovh^
 ||kisskh.red^
 ||kisslauncher.com^
@@ -3446,6 +3484,7 @@
 ||nap.nationalacademies.org^
 ||napisy24.pl^
 ||naranjasdehiroshima.com^
+||nationalacademies.org^
 ||nationalarchives.gov.uk^
 ||nationstates.net^
 ||natomanga.com^
@@ -3848,6 +3887,7 @@
 ||paperity.org^
 ||paperpanda.app^
 ||papodegordo.com.br^
+||parliament.uk^
 ||parsatv.com^
 ||parseek.com^
 ||particle-clicker.web.cern.ch^
@@ -4005,6 +4045,7 @@
 ||playstationhaber.com^
 ||playtester.io^
 ||playtext.app^
+||playtext.com^
 ||playtorrio.xyz^
 ||playwordsmyth.com^
 ||plaza.one^
@@ -4322,6 +4363,7 @@
 ||redalert.me^
 ||redd.it^
 ||redditreads.com^
+||redecanais.af^
 ||redecanais.ooo^
 ||redflix.club^
 ||redflix.one^
@@ -4827,6 +4869,7 @@
 ||soundcloud.com^
 ||soundgator.com^
 ||soundhound.com^
+||soundimage.org^
 ||soundinstants.com^
 ||soundoftext.com^
 ||soundpacks.com^
@@ -4966,6 +5009,7 @@
 ||streaming-integrale.com^
 ||streamingcommunityz.red^
 ||streamingunity.dog^
+||streamingunity.vip^
 ||streamkiste.taxi^
 ||streamo.pro^
 ||streamsports99.ru^
@@ -4977,6 +5021,7 @@
 ||streamwatch.online^
 ||streamwriter.org^
 ||streamx-hd.com^
+||streamxhd.com^
 ||streema.com^
 ||stremio-addons.net^
 ||stremio.ar0.eu^
@@ -4994,6 +5039,7 @@
 ||stumpapp.dev^
 ||suamusica.com.br^
 ||sub-scene.com^
+||sub.wyzie.io^
 ||sub.wyzie.ru^
 ||subconverter.com^
 ||subdivx.com^
@@ -5068,6 +5114,7 @@
 ||tachimanga.app^
 ||tadaktadak.co.kr^
 ||tagcloud.rainosullivan.com^
+||tagpro.koalabeast.com^
 ||taiga.moe^
 ||tailieuonthi.edu.vn^
 ||tainiesonline.xyz^
@@ -5099,6 +5146,7 @@
 ||tathyakosh.in^
 ||taurine.app^
 ||tavernai.net^
+||tcg.one^
 ||tcgone.net^
 ||tdtchannels.com^
 ||teach-in.ru^
@@ -5159,6 +5207,7 @@
 ||theblackvault.com^
 ||thebookrex.com^
 ||thechessdirectory.com^
+||thecinefy.online^
 ||thecinefy.site^
 ||theclassicalstation.org^
 ||thecriterioncloset.com^
@@ -5222,6 +5271,7 @@
 ||thinkygames.com^
 ||thivien.net^
 ||thorium.edrlab.org^
+||thoriumreader.com^
 ||thoughtco.com^
 ||threelettersgame.com^
 ||thunderapp.dev^
@@ -5279,6 +5329,7 @@
 ||toonhub4u.me^
 ||toonily.com^
 ||toonitalia.xyz^
+||toonshub.my.id^
 ||toonshub.xyz^
 ||toonstream.vip^
 ||toontales.net^
@@ -5315,6 +5366,7 @@
 ||tortugaceviri.com^
 ||totaljerkface.com^
 ||totally-not.spyware.lol^
+||totallynormalchess.com^
 ||totalsportek.st^
 ||toughlovearena.com^
 ||touhoudb.com^
@@ -5355,6 +5407,7 @@
 ||tritik.com^
 ||triviaduel.com^
 ||trl.org^
+||trmanga.com^
 ||tropabrscans.blogspot.com^
 ||troypoint.com^
 ||trsoundtrack.blogspot.com^
@@ -5451,6 +5504,7 @@
 ||tytel.org^
 ||tzevaadom.co.il^
 ||uakino-bay.net^
+||uaserials.my^
 ||uaserials.pro^
 ||ub66.vercel.app^
 ||ubghub.org^
@@ -5504,6 +5558,7 @@
 ||usenet.rexum.space^
 ||usenotesgpt.com^
 ||utaitedb.net^
+||utatime.com^
 ||utauguides.carrd.co^
 ||utog.org^
 ||uwe-sieber.de^
@@ -5880,6 +5935,7 @@
 ||ww13.manga-zip.app^
 ||ww14.kissasian.com.lv^
 ||ww3.animeonline.ninja^
+||ww3.gnulahd.nu^
 ||ww3.lectulandia.co^
 ||ww3.lectulandia.com^
 ||wwv.veranimes.net^
@@ -5956,6 +6012,7 @@
 ||youraislopbores.me^
 ||yourcountdown.to^
 ||youshows.org^
+||yoyomanga.com^
 ||ysk-comics.com^
 ||ytch.tv^
 ||ytdlnis.org^

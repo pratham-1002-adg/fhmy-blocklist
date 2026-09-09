@@ -2,8 +2,8 @@
 ! Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 1067
-! Updated: 2026-09-09 13:40:41 UTC
+! Total Rules: 1079
+! Updated: 2026-09-09 14:07:09 UTC
 
 ||0xdb.org^
 ||123animehub.cc^
@@ -102,6 +102,7 @@
 ||animeout.xyz^
 ||animepahe.pw^
 ||animeparadise.moe^
+||animesalt.cx^
 ||animesalt.top^
 ||animeschedule.net^
 ||animesilo.cc^
@@ -123,6 +124,7 @@
 ||anitaku.online^
 ||anivibe.live^
 ||aniwatch.icu^
+||aniwatchtv.cx^
 ||aniwaves.ru^
 ||anixtv.in^
 ||anixtv.us.cc^
@@ -157,6 +159,7 @@
 ||bakabt.me^
 ||baked.live^
 ||banime.dedyn.io^
+||basementx.lol^
 ||basementx.pro^
 ||basementx.xyz^
 ||basketball-video.com^
@@ -270,6 +273,7 @@
 ||disneynow.com^
 ||diva.sfsu.edu^
 ||dlhd.st^
+||dlhd.sx^
 ||dmtalkies.com^
 ||docs.aiostreams.viren070.me^
 ||docs.wyzie.ru^
@@ -281,6 +285,7 @@
 ||dramacooli.buzz^
 ||dramacountdown.com^
 ||dramaday.me^
+||dramafren.org^
 ||dramahood.mom^
 ||dramanice.boo^
 ||duafile.net^
@@ -319,6 +324,7 @@
 ||fbstream.cc^
 ||fcast.org^
 ||fctv33.lat^
+||ffmovies.org^
 ||filmcave.ru^
 ||filmfans.org^
 ||filmgo.live^
@@ -369,6 +375,7 @@
 ||freetvgarden.com^
 ||freetvz.com^
 ||fsharetv.co^
+||fstream.app^
 ||fullmatchshows.com^
 ||fullraces.com^
 ||funniermoments.net^
@@ -377,6 +384,7 @@
 ||gaiaflix.live^
 ||gestdown.info^
 ||ggflix.live^
+||ggflix.pro^
 ||git.private.coffee^
 ||gizmoplex.com^
 ||globalfreetv.com^
@@ -391,6 +399,7 @@
 ||guides.viren070.me^
 ||guidetv.live^
 ||hancinema.net^
+||harbor.elfhosted.com^
 ||harbor.site^
 ||hayase.watch^
 ||hdclump.com^
@@ -462,6 +471,7 @@
 ||kisskh.fr^
 ||kisskh.id^
 ||kisskh.is^
+||kisskh.or.at^
 ||kisskh.ovh^
 ||kisskh.red^
 ||kitsu.io^
@@ -834,6 +844,7 @@
 ||strumyk.pk^
 ||stumfilm.dk^
 ||sub-scene.com^
+||sub.wyzie.io^
 ||sub.wyzie.ru^
 ||subconverter.com^
 ||subdl.com^
@@ -872,6 +883,7 @@
 ||tfpdl.se^
 ||tfpdl.to^
 ||the-classic-movies.com^
+||thecinefy.online^
 ||thecinefy.site^
 ||thecriterioncloset.com^
 ||thedigitaltheater.com^

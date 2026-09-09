@@ -2,8 +2,8 @@
 ! Description: E-books, textbooks, comics, manga, light novels, and magazines.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 844
-! Updated: 2026-09-09 13:40:42 UTC
+! Total Rules: 852
+! Updated: 2026-09-09 14:07:12 UTC
 
 ||1lib.sk^
 ||2012books.lardbucket.org^
@@ -42,6 +42,7 @@
 ||apps.microsoft.com^
 ||apps.npr.org^
 ||aquareader.net^
+||aquilereader.in^
 ||archive.gamehistory.org^
 ||archive.leftove.rs^
 ||archive.sacred-texts.com^
@@ -301,6 +302,7 @@
 ||gbif.org^
 ||getcomics.org^
 ||getlibation.com^
+||git.launchpad.net^
 ||gitlab.gnome.org^
 ||glimbay.netlify.app^
 ||globalgreyebooks.com^
@@ -310,6 +312,7 @@
 ||goalkicker.com^
 ||gocomics.com^
 ||goldenaudiobook.net^
+||goldenaudiobooks.com^
 ||gonvisor.com^
 ||goodbooks.io^
 ||goodreads.com^
@@ -350,6 +353,7 @@
 ||inkitt.com^
 ||intechopen.com^
 ||intratext.com^
+||invent.kde.org^
 ||inventaire.io^
 ||iranicaonline.org^
 ||isfdb.org^
@@ -494,6 +498,7 @@
 ||mysciencework.com^
 ||namicomi.com^
 ||nap.nationalacademies.org^
+||nationalacademies.org^
 ||nationalarchives.gov.uk^
 ||natomanga.com^
 ||neliti.com^
@@ -572,6 +577,7 @@
 ||papeer.tech^
 ||paperity.org^
 ||paperpanda.app^
+||parliament.uk^
 ||pdf-magazines-archive.com^
 ||pdf-magazines-download.com^
 ||pdfbooksworld.com^
@@ -594,6 +600,7 @@
 ||planetebook.com^
 ||planetpublish.com^
 ||playtext.app^
+||playtext.com^
 ||playtorrio.xyz^
 ||pmc.ncbi.nlm.nih.gov^
 ||poemhunter.com^
@@ -764,6 +771,7 @@
 ||thewebcomiclist.com^
 ||thewiki.moe^
 ||thorium.edrlab.org^
+||thoriumreader.com^
 ||thoughtco.com^
 ||tobari.moe^
 ||tolkiengateway.net^

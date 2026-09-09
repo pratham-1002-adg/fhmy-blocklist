@@ -2,13 +2,15 @@
 ! Description: Non-English and regional piracy, streaming, and media portals.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 1452
-! Updated: 2026-09-09 13:40:42 UTC
+! Total Rules: 1475
+! Updated: 2026-09-09 14:07:10 UTC
 
 ||1jour1film0626.site^
 ||1lou.me^
 ||1tamilblasters.luxe^
+||1tamilblasters.tech^
 ||1tamilcrow.net^
+||1tamilmv.meme^
 ||1tamilmv.observer^
 ||1tamilyogi.me^
 ||1tamilyogi.ro^
@@ -21,9 +23,11 @@
 ||256zw.org^
 ||2ix2.com^
 ||35mm.online^
+||35ppt.com^
 ||36mh.org^
 ||4pda.to^
 ||5165.org^
+||52shuku.net^
 ||52shuku.vip^
 ||5movierulz.markets^
 ||5nd.com^
@@ -76,6 +80,7 @@
 ||ani-cli-arabic.dev^
 ||anidub.pro^
 ||anifilm.net^
+||anifilm.pro^
 ||aniflix.uno^
 ||anilabx.xyz^
 ||aniliberty.top^
@@ -90,6 +95,7 @@
 ||anime3rb.com^
 ||animeav1.com^
 ||animebalkan.gg^
+||animebalkan.org^
 ||animebatch.id^
 ||animebloodsub.net^
 ||animeclipse.com^
@@ -110,6 +116,7 @@
 ||animesaturn.me^
 ||animeslayer.to^
 ||animesrbija.com^
+||animesss.com^
 ||animestars.org^
 ||animesub.info^
 ||animesubtitle.ir^
@@ -210,6 +217,7 @@
 ||bibliotecaelfica.org^
 ||bibliotecasecreta.nl^
 ||biblus.in^
+||biblus.org^
 ||bilibili.com^
 ||bilibili.tv^
 ||bimiacg14.net^
@@ -260,6 +268,7 @@
 ||carto.tchoo.net^
 ||catatannusantara.com^
 ||catocr.com^
+||cb01uno.homes^
 ||cb01uno.world^
 ||cbeta.org^
 ||ccamc.co^
@@ -296,6 +305,7 @@
 ||cinezo.org^
 ||cizgimax.online^
 ||clasicoshistoria.blogspot.com^
+||click-sud.pro^
 ||clicksud.co^
 ||clicksud.com.in^
 ||cloudy.pk^
@@ -547,6 +557,7 @@
 ||fuun.fun^
 ||gallica.bnf.fr^
 ||gamatotv.info^
+||gamatotv.miami^
 ||gameland.ru^
 ||gatonplayseries.com^
 ||gdrivelatino.net^
@@ -600,10 +611,12 @@
 ||harpacrista.org^
 ||haschcon.com^
 ||hattusa.club^
+||hayasaka.8man.in^
 ||hayasaka.vercel.app^
 ||hcmut-courseware.org^
 ||hd-source.to^
 ||hdfilmcehennemi.nl^
+||hdhub4u.bi^
 ||hdhub4u.ec^
 ||hdmozi.hu^
 ||heavenmanga.com^
@@ -716,6 +729,8 @@
 ||kinostrain.com^
 ||kinoturk.net^
 ||kinoukr.com^
+||kinoukr.tv^
+||kinovibe.cc^
 ||kinovibe.co^
 ||kirmalk.com^
 ||kitab-evi.com^
@@ -1068,6 +1083,7 @@
 ||recantodasletras.com.br^
 ||redalert.me^
 ||redd.it^
+||redecanais.af^
 ||redecanais.ooo^
 ||redzidzirdilatviju.lv^
 ||relampagomovies.com^
@@ -1195,8 +1211,10 @@
 ||streaming-integrale.com^
 ||streamingcommunityz.red^
 ||streamingunity.dog^
+||streamingunity.vip^
 ||streamkiste.taxi^
 ||streamx-hd.com^
+||streamxhd.com^
 ||strims24.pl^
 ||strumyk.domains^
 ||strumyk.pk^
@@ -1273,6 +1291,7 @@
 ||tool.lu^
 ||toonhub4u.me^
 ||toonitalia.xyz^
+||toonshub.my.id^
 ||toonshub.xyz^
 ||toonstream.vip^
 ||toonworld4all.me^
@@ -1289,6 +1308,7 @@
 ||tramphim4.org^
 ||tranimeizle.co^
 ||trdizin.gov.tr^
+||trmanga.com^
 ||tropabrscans.blogspot.com^
 ||trsoundtrack.blogspot.com^
 ||trtag.com^
@@ -1330,6 +1350,7 @@
 ||twitcasting.tv^
 ||tzevaadom.co.il^
 ||uakino-bay.net^
+||uaserials.my^
 ||uaserials.pro^
 ||unikey.org^
 ||universia.net^
@@ -1416,6 +1437,7 @@
 ||ww1.wiflix-adresses.fun^
 ||ww13.manga-zip.app^
 ||ww3.animeonline.ninja^
+||ww3.gnulahd.nu^
 ||ww3.lectulandia.co^
 ||ww3.lectulandia.com^
 ||wwv.veranimes.net^
@@ -1440,6 +1462,7 @@
 ||yoda.az^
 ||yodu.org^
 ||yoturkish.com^
+||yoyomanga.com^
 ||yummyanime.tv^
 ||z3.fm^
 ||zaluknij.cc^

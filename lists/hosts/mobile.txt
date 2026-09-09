@@ -2,8 +2,8 @@
 # Description: Modded Android APKs, sideloading stores, iOS IPA repositories.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 481
-# Updated: 2026-09-09 13:40:42 UTC
+# Total Rules: 484
+# Updated: 2026-09-09 14:07:10 UTC
 
 4pda.to
 80bee.com
@@ -221,6 +221,7 @@ help.transitapp.com
 highlightsapp.net
 hminnovations.org
 home.trebel.io
+humin.org
 hybrid-analysis.com
 hydraapp.io
 hypelist.com
@@ -262,6 +263,8 @@ kdeconnect.kde.org
 kernelsu.org
 ketsu.app
 keyboard.futo.org
+keyboard.futo.tech
+keymapper.app
 kinkeadtech.com
 kisslauncher.com
 kodi.tv

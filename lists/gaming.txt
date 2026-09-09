@@ -2,8 +2,8 @@
 ! Description: Pirated games, ROMs, ISOs, game repacks, cracks, and emulators.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 1021
-! Updated: 2026-09-09 13:40:42 UTC
+! Total Rules: 1025
+! Updated: 2026-09-09 14:07:09 UTC
 
 ||18xx.games^
 ||247freepoker.com^
@@ -392,6 +392,7 @@
 ||heptaveegesimal.com^
 ||hexar.io^
 ||hexcodle.com^
+||hexhearth.live^
 ||hexhearth.lovable.app^
 ||hexrom.com^
 ||hexxagon.com^
@@ -876,8 +877,10 @@
 ||switchgamesmall.icu^
 ||switchroms.io^
 ||synesthesiagame.com^
+||tagpro.koalabeast.com^
 ||tamanotchi.world^
 ||tankionline.com^
+||tcg.one^
 ||tcgone.net^
 ||teamforeveronline.wixsite.com^
 ||teamwood.itch.io^
@@ -914,6 +917,7 @@
 ||topeaglerservers.com^
 ||torinak.com^
 ||totaljerkface.com^
+||totallynormalchess.com^
 ||toughlovearena.com^
 ||triahgames.com^
 ||triviaduel.com^
