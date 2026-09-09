@@ -19,8 +19,8 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 
 | Category | Rules | Raw GitHub Link (personalDNSfilter) | Fast CDN Link |
 | :--- | :---: | :--- | :--- |
-| **All-in-One (Master)** | `6,070` | [`lists/hosts/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/all.txt) | [`hosts/all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/all.txt) |
-| **Movies & TV Streaming** | `1,079` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/streaming.txt) |
+| **All-in-One (Master)** | `6,074` | [`lists/hosts/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/all.txt) | [`hosts/all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/all.txt) |
+| **Movies & TV Streaming** | `1,083` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/streaming.txt) |
 | **Gaming** | `1,025` | [`gaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/gaming.txt) | [`gaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/gaming.txt) |
 | **Music & Audio** | `877` | [`audio.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/audio.txt) | [`audio.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/audio.txt) |
 | **Books & Comics** | `852` | [`reading.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/reading.txt) | [`reading.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/reading.txt) |
@@ -34,8 +34,8 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 
 | Category | Rules | Raw GitHub Link (AdGuard Home / uBlock) | Fast CDN Link |
 | :--- | :---: | :--- | :--- |
-| **All-in-One (Master)** | `6,070` | [`lists/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/all.txt) | [`all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/all.txt) |
-| **Movies & TV Streaming** | `1,079` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/streaming.txt) |
+| **All-in-One (Master)** | `6,074` | [`lists/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/all.txt) | [`all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/all.txt) |
+| **Movies & TV Streaming** | `1,083` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/streaming.txt) |
 | **Gaming** | `1,025` | [`gaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/gaming.txt) | [`gaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/gaming.txt) |
 | **Music & Audio** | `877` | [`audio.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/audio.txt) | [`audio.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/audio.txt) |
 | **Books & Comics** | `852` | [`reading.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/reading.txt) | [`reading.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/reading.txt) |
@@ -65,4 +65,4 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 5. Click **Save**.
 
 ---
-*Last automated sync: `2026-09-09 22:07:01 UTC`*
+*Last automated sync: `2026-09-09 22:36:59 UTC`*

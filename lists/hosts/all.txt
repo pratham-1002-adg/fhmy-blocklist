@@ -2,8 +2,8 @@
 # Description: Complete merged and deduplicated rules from all FMHY categories.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
-# Total Rules: 6070
-# Updated: 2026-09-09 22:07:01 UTC
+# Total Rules: 6074
+# Updated: 2026-09-09 22:36:59 UTC
 
 0mag.net
 0xdb.org
@@ -1425,6 +1425,7 @@ docs.keymapper.club
 docs.ledfx.app
 docs.miku.gg
 docs.openclaw.ai
+docs.pstream.cfd
 docs.sillytavern.app
 docs.slimevr.dev
 docs.udroid.org
@@ -2039,9 +2040,12 @@ funtrivia.com
 furia.com
 fuseji.net
 fusele.netlify.app
+futbol-x.sryze.cc
+futbol-x.top
 futbol-x.xyz
 futbollibre.gg
 futuretools.io
+futxtv.indevs.in
 fuun.fun
 fviewer.com
 fx.amee.ee
