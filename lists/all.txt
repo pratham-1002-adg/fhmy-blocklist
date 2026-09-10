@@ -2,8 +2,8 @@
 ! Description: Complete merged and deduplicated rules from all FMHY categories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 6074
-! Updated: 2026-09-10 02:39:21 UTC
+! Total Rules: 6079
+! Updated: 2026-09-10 03:07:05 UTC
 
 ||0mag.net^
 ||0xdb.org^
@@ -2203,6 +2203,7 @@
 ||goodbooks.io^
 ||goodreads.com^
 ||goodtheorist.science^
+||goodtoon003.com^
 ||goodweb.net.cn^
 ||googlefeud.com^
 ||googlesnakemods.com^
@@ -3028,6 +3029,8 @@
 ||lucida.to^
 ||luciferdonghua.in^
 ||ludditus.com^
+||luffytv.live^
+||luffytv.online^
 ||luisterradio.fm^
 ||lumalabs.ai^
 ||lumina.sh^
@@ -4106,6 +4109,7 @@
 ||politicsandwar.com^
 ||polkadotgame.com^
 ||polyreplay.com^
+||polytrackcodes.com^
 ||ponderclub.co^
 ||poolsuite.net^
 ||popcornflix.com^
@@ -4182,6 +4186,7 @@
 ||promptomania.com^
 ||prompy.me^
 ||proquest.com^
+||protobowl.com^
 ||proxx.app^
 ||proxy.cubari.moe^
 ||ps1fun.com^

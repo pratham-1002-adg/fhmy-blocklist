@@ -2,8 +2,8 @@
 # Description: Non-English and regional piracy, streaming, and media portals.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1475
-# Updated: 2026-09-10 02:39:21 UTC
+# Total Rules: 1476
+# Updated: 2026-09-10 03:07:05 UTC
 
 1jour1film0626.site
 1lou.me
@@ -580,6 +580,7 @@ go.11klasov.net
 godamh.com
 gokuhd.com
 goldesel.bz
+goodtoon003.com
 goodweb.net.cn
 goto10.fr
 goyabu.io
