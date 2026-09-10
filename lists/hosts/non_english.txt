@@ -2,8 +2,8 @@
 # Description: Non-English and regional piracy, streaming, and media portals.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1476
-# Updated: 2026-09-10 03:07:05 UTC
+# Total Rules: 1487
+# Updated: 2026-09-10 03:39:43 UTC
 
 1jour1film0626.site
 1lou.me
@@ -340,9 +340,11 @@ cyberleninka.ru
 daemonanime.net
 danet.vn
 databazeknih.cz
+datoid.cz
 datoid.to
 dctp.tv
 ddgroupclub.win
+ddizi.im
 ddizi.vip
 ddl-warez.cc
 ddt.hastateam.com
@@ -374,6 +376,7 @@ digital.bbm.usp.br
 dio.me
 divxclasico.com
 dizibox.live
+diziizle.now
 diziizle.tel
 dizilla.to
 dizipal1453.com
@@ -507,6 +510,7 @@ filmfans.org
 filmflix.ro
 filmi7.net
 filmifen.com
+filmix.gg
 filmix.my
 filmo.platfo.es
 filmo.to
@@ -522,6 +526,7 @@ fireani.me
 firstweek.de
 fiuxy2.co
 flemmix.fast
+flemmix.kim
 flibusta.i2p
 flibusta.is
 flibusta.site
@@ -605,6 +610,7 @@ gyo.tc
 hack-games.com
 hackstore.to
 hackstore2.com
+hacktorrent.cc
 hacktorrent.men
 haisou.cc
 hangarceviri.com
@@ -839,6 +845,7 @@ mangaz.com
 manhuagui.com
 manhuapi.cc
 manhuazhan.com
+manhuazhan.org
 manualpdf.es
 marketfiyati.org.tr
 markiza.sk
@@ -1281,6 +1288,7 @@ thvli.vn
 tieulun.hd.free.fr
 tioanime.com
 tiodonghua.com
+tiodonghua.lat
 titrari.ro
 tlnovelas.net
 tntvillage-db.programmiedovetrovarli.it
@@ -1307,6 +1315,7 @@ tortugaceviri.com
 toutiao.com
 tr4ker.net
 tramphim4.org
+tramphim5.org
 tranimeizle.co
 trdizin.gov.tr
 trmanga.com
@@ -1334,6 +1343,7 @@ turkcesesindir.com
 turkish123.to
 turkishaudiocenter.com
 turkishtv.co
+turkrutv.net
 turkrutv.tv
 turserial.info
 tuu.to
@@ -1409,6 +1419,7 @@ warezhr.org
 wasm.in
 watchanimeworld.one
 wawacity-info.com
+wawacity.feedback
 wawacity.irish
 web-ace.jp
 web860x.faselhdx.life

@@ -2,8 +2,8 @@
 # Description: Pirated games, ROMs, ISOs, game repacks, cracks, and emulators.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1027
-# Updated: 2026-09-10 03:07:05 UTC
+# Total Rules: 1029
+# Updated: 2026-09-10 03:39:43 UTC
 
 18xx.games
 247freepoker.com
@@ -110,6 +110,7 @@ cdromance.org
 cemetech.net
 cemu.cfw.guide
 cg-gamespc.com
+cg-gamespc.net
 channa.itch.io
 char64.itch.io
 cheatmsx.com
@@ -525,6 +526,7 @@ mdk.cab
 mega.nz
 megamanmaker.com
 memorizeearth.com
+merriam-webster.com
 mess.eu.org
 messenger.abeto.co
 metazooa.com
