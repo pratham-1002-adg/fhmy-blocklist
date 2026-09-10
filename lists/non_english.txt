@@ -3,7 +3,7 @@
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 1487
-! Updated: 2026-09-10 04:39:56 UTC
+! Updated: 2026-09-10 05:06:45 UTC
 
 ||1jour1film0626.site^
 ||1lou.me^
