@@ -3,7 +3,7 @@
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
 # Total Rules: 6102
-# Updated: 2026-09-10 21:06:35 UTC
+# Updated: 2026-09-10 21:36:36 UTC
 
 0mag.net
 0xdb.org
