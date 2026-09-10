@@ -2,8 +2,8 @@
 # Description: Non-English and regional piracy, streaming, and media portals.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1487
-# Updated: 2026-09-10 08:40:27 UTC
+# Total Rules: 1489
+# Updated: 2026-09-10 09:07:29 UTC
 
 1jour1film0626.site
 1lou.me
@@ -811,6 +811,8 @@ lonnrot.net
 lowik.gitverse.site
 lsfdico.injs-metz.fr
 lsq-fr.ca
+luffytv.live
+luffytv.online
 luisterradio.fm
 luminsangelsseriale.com
 lupiteam.net

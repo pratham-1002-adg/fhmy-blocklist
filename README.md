@@ -28,7 +28,7 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 | **Torrents** | `99` | [`torrenting.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/torrenting.txt) | [`torrenting.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/torrenting.txt) |
 | **Mobile Piracy** | `484` | [`mobile.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/mobile.txt) | [`mobile.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/mobile.txt) |
 | **Artificial Intelligence** | `272` | [`ai.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/ai.txt) | [`ai.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/ai.txt) |
-| **International Piracy** | `1,487` | [`non_english.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/non_english.txt) | [`non_english.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/non_english.txt) |
+| **International Piracy** | `1,489` | [`non_english.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/non_english.txt) | [`non_english.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/non_english.txt) |
 
 ### 2. AdGuard / Adblock Syntax Format (`||domain^`)
 
@@ -43,7 +43,7 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 | **Torrents** | `99` | [`torrenting.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/torrenting.txt) | [`torrenting.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/torrenting.txt) |
 | **Mobile Piracy** | `484` | [`mobile.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/mobile.txt) | [`mobile.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/mobile.txt) |
 | **Artificial Intelligence** | `272` | [`ai.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/ai.txt) | [`ai.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/ai.txt) |
-| **International Piracy** | `1,487` | [`non_english.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/non_english.txt) | [`non_english.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/non_english.txt) |
+| **International Piracy** | `1,489` | [`non_english.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/non_english.txt) | [`non_english.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/non_english.txt) |
 
 ---
 
@@ -65,4 +65,4 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 5. Click **Save**.
 
 ---
-*Last automated sync: `2026-09-10 08:40:27 UTC`*
+*Last automated sync: `2026-09-10 09:07:29 UTC`*
