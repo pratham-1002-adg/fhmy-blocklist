@@ -2,8 +2,8 @@
 # Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1092
-# Updated: 2026-09-11 15:38:54 UTC
+# Total Rules: 1094
+# Updated: 2026-09-11 16:07:58 UTC
 
 0xdb.org
 123animehub.cc
@@ -57,6 +57,7 @@ anianimax.dpdns.org
 anibase.net
 anica.jp
 anichan.net
+anichan.to
 anichart.net
 anicine.xyz
 aniclipse.com
@@ -633,6 +634,7 @@ ntvx.link
 nukkard.com
 numb3rs.stream
 nuvio-plugin-library.vercel.app
+nuvio.tv
 nuvio.wiki
 nuviosync.com
 nyaa.iss.ink

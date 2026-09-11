@@ -2,8 +2,8 @@
 # Description: E-books, textbooks, comics, manga, light novels, and magazines.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 854
-# Updated: 2026-09-11 15:38:54 UTC
+# Total Rules: 855
+# Updated: 2026-09-11 16:07:58 UTC
 
 1lib.sk
 2012books.lardbucket.org
@@ -816,6 +816,7 @@ wholeearth.info
 wiki.mobileread.com
 wiki.restarters.net
 wikibooks.org
+wikidex.tr25.es
 wikileaks.org
 wikiquote.org
 wikisource.org
