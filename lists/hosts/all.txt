@@ -2,11 +2,12 @@
 # Description: Complete merged and deduplicated rules from all FMHY categories.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
-# Total Rules: 6102
-# Updated: 2026-09-11 10:39:13 UTC
+# Total Rules: 6112
+# Updated: 2026-09-11 11:07:14 UTC
 
 0mag.net
 0xdb.org
+1000flights.blogspot.com
 1001albumsgenerator.com
 1001tracklists.com
 101soundboards.com
@@ -875,6 +876,7 @@ burningseries.ac
 burningseries.cx
 burningtheground.net
 bussolaescolar.com.br
+butterboycompilations.blogspot.com
 butterchurnviz.com
 buzmenow.com
 buzzinga.io
@@ -1025,6 +1027,7 @@ cinecalidad.ec
 cineclasicodcc.com
 cinedeantes2.weebly.com
 cineflix.fstream.app
+cinefork.net
 cinego.co
 cinegram.tv
 cinehd.app
@@ -1413,6 +1416,7 @@ dles.gg
 dlhd.st
 dlhd.sx
 dli.sanskritdictionary.com
+dlive.sx
 dlivros.com
 dlpsgame.com
 dlraw.app
@@ -2625,6 +2629,7 @@ joiplay.net
 joj.sk
 jornaisbrasileiros.net.br
 jornaiserevistas.com
+josephbarulho.blogspot.com
 joshwoodward.com
 journal.fi
 jpop.xyz
@@ -3650,6 +3655,7 @@ novelyra.com
 novera.tv
 novgo.net
 nowar.help
+noxx.gg
 noxx.to
 np4.ironhelmet.com
 npmjs.com
@@ -3908,6 +3914,7 @@ paperback.moe
 paperity.org
 paperpanda.app
 papodegordo.com.br
+paradiseofgaragecomps.blogspot.com
 parliament.uk
 parsatv.com
 parseek.com
@@ -4166,6 +4173,7 @@ primeshows.org
 primewire.mov
 primewire.nexus
 primewire.zip
+primitiveofferings.blogspot.com
 princechazz.com
 princejs.com
 printchess.com
@@ -5132,6 +5140,7 @@ sync.coconono.org
 syncler.net
 synesthesiagame.com
 syosetu.com
+systemsofromance.com
 szynalski.com
 ta.kirmalk.com
 tachimanga.app
@@ -5345,6 +5354,7 @@ toloka.to
 tomlehrersongs.com
 tonarinoyj.jp
 tone3000.com
+toneandwave.blogspot.com
 tones.wolfram.com
 tonkacine.watch
 tonocracy.com
