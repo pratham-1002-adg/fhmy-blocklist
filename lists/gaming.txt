@@ -3,7 +3,7 @@
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 1029
-! Updated: 2026-09-12 14:06:35 UTC
+! Updated: 2026-09-12 14:37:48 UTC
 
 ||18xx.games^
 ||247freepoker.com^
