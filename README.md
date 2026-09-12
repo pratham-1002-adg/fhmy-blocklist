@@ -19,10 +19,10 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 
 | Category | Rules | Raw GitHub Link (personalDNSfilter) | Fast CDN Link |
 | :--- | :---: | :--- | :--- |
-| **All-in-One (Master)** | `6,114` | [`lists/hosts/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/all.txt) | [`hosts/all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/all.txt) |
-| **Movies & TV Streaming** | `1,094` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/streaming.txt) |
+| **All-in-One (Master)** | `6,117` | [`lists/hosts/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/all.txt) | [`hosts/all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/all.txt) |
+| **Movies & TV Streaming** | `1,096` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/streaming.txt) |
 | **Gaming** | `1,029` | [`gaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/gaming.txt) | [`gaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/gaming.txt) |
-| **Music & Audio** | `887` | [`audio.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/audio.txt) | [`audio.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/audio.txt) |
+| **Music & Audio** | `888` | [`audio.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/audio.txt) | [`audio.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/audio.txt) |
 | **Books & Comics** | `855` | [`reading.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/reading.txt) | [`reading.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/reading.txt) |
 | **Direct Downloads** | `149` | [`downloading.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/downloading.txt) | [`downloading.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/downloading.txt) |
 | **Torrents** | `99` | [`torrenting.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/hosts/torrenting.txt) | [`torrenting.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/hosts/torrenting.txt) |
@@ -34,10 +34,10 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 
 | Category | Rules | Raw GitHub Link (AdGuard Home / uBlock) | Fast CDN Link |
 | :--- | :---: | :--- | :--- |
-| **All-in-One (Master)** | `6,114` | [`lists/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/all.txt) | [`all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/all.txt) |
-| **Movies & TV Streaming** | `1,094` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/streaming.txt) |
+| **All-in-One (Master)** | `6,117` | [`lists/all.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/all.txt) | [`all.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/all.txt) |
+| **Movies & TV Streaming** | `1,096` | [`streaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/streaming.txt) | [`streaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/streaming.txt) |
 | **Gaming** | `1,029` | [`gaming.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/gaming.txt) | [`gaming.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/gaming.txt) |
-| **Music & Audio** | `887` | [`audio.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/audio.txt) | [`audio.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/audio.txt) |
+| **Music & Audio** | `888` | [`audio.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/audio.txt) | [`audio.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/audio.txt) |
 | **Books & Comics** | `855` | [`reading.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/reading.txt) | [`reading.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/reading.txt) |
 | **Direct Downloads** | `149` | [`downloading.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/downloading.txt) | [`downloading.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/downloading.txt) |
 | **Torrents** | `99` | [`torrenting.txt`](https://raw.githubusercontent.com/pratham-1002-adg/fmhy-blocklists/main/lists/torrenting.txt) | [`torrenting.txt`](https://cdn.jsdelivr.net/gh/pratham-1002-adg/fmhy-blocklists@main/lists/torrenting.txt) |
@@ -65,4 +65,4 @@ Automated, high-frequency AdGuard / DNS / uBlock / personalDNSfilter blocklists 
 5. Click **Save**.
 
 ---
-*Last automated sync: `2026-09-12 05:06:57 UTC`*
+*Last automated sync: `2026-09-12 05:36:38 UTC`*

@@ -2,8 +2,8 @@
 # Description: Complete merged and deduplicated rules from all FMHY categories.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
-# Total Rules: 6114
-# Updated: 2026-09-12 05:06:57 UTC
+# Total Rules: 6117
+# Updated: 2026-09-12 05:36:38 UTC
 
 0mag.net
 0xdb.org
@@ -4002,6 +4002,7 @@ piratexplay.cc
 piratexplay.com
 pitchfork.com
 pitsport.live
+pitsport.st
 pixabay.com
 pixel-puzzler.playcurious.games
 pixeldrain-bypass.gamedrive.to
@@ -4166,6 +4167,7 @@ premierproducts-uk.co.uk
 prepaid-data-sim-card.fandom.com
 presetshare.com
 presidency.ucsb.edu
+pressplayz.to
 preterhuman.net
 pricepertoken.com
 pricepoint.gg
@@ -5168,6 +5170,7 @@ tap4sport.link
 tap4sport.pw
 tap4sport.st
 tape.xyz
+tapeattack.blogspot.com
 tapefear.com
 tapmusic.net
 targum.info

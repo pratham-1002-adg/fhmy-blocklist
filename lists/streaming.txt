@@ -2,8 +2,8 @@
 ! Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 1094
-! Updated: 2026-09-12 05:06:56 UTC
+! Total Rules: 1096
+! Updated: 2026-09-12 05:36:36 UTC
 
 ||0xdb.org^
 ||123animehub.cc^
@@ -672,6 +672,7 @@
 ||piratexplay.cc^
 ||piratexplay.com^
 ||pitsport.live^
+||pitsport.st^
 ||pixeldrain-bypass.gamedrive.to^
 ||play.history.com^
 ||play.xumo.com^
@@ -695,6 +696,7 @@
 ||ppv.to^
 ||ppvs.pk^
 ||pracdev.org^
+||pressplayz.to^
 ||primeshows.org^
 ||primewire.mov^
 ||primewire.nexus^
