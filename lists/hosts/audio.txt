@@ -2,8 +2,8 @@
 # Description: Music streaming, lossless downloads, rippers, podcasts, and audiobooks.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 888
-# Updated: 2026-09-12 08:37:31 UTC
+# Total Rules: 889
+# Updated: 2026-09-12 09:07:07 UTC
 
 1000flights.blogspot.com
 1001albumsgenerator.com
@@ -487,6 +487,7 @@ mynoise.net
 mypitchfork.fun
 mypromosound.com
 mytuner-radio.com
+nathannothinsez.blogspot.com
 navidrome.org
 ncs.io
 netabc.sourceforge.io

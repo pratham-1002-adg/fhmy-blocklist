@@ -2,8 +2,8 @@
 ! Description: Complete merged and deduplicated rules from all FMHY categories.
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
-! Total Rules: 6117
-! Updated: 2026-09-12 08:37:31 UTC
+! Total Rules: 6123
+! Updated: 2026-09-12 09:07:07 UTC
 
 ||0mag.net^
 ||0xdb.org^
@@ -2682,6 +2682,7 @@
 ||kboingfm.com.br^
 ||kcnawatch.us^
 ||kdeconnect.kde.org^
+||kdesa.app^
 ||kdesa.stream^
 ||kdice.com^
 ||kdramaost.com^
@@ -2746,6 +2747,7 @@
 ||kirka.io^
 ||kirmalk.com^
 ||kissasian.video^
+||kisskh.club^
 ||kisskh.dk^
 ||kisskh.fr^
 ||kisskh.id^
@@ -3479,6 +3481,7 @@
 ||myanime.live^
 ||myanimelist.net^
 ||myanonamouse.net^
+||myasiantv.com.bz^
 ||myboerse.bz^
 ||mybrowseraddon.com^
 ||mycima.gdn^
@@ -3511,6 +3514,7 @@
 ||nap.nationalacademies.org^
 ||napisy24.pl^
 ||naranjasdehiroshima.com^
+||nathannothinsez.blogspot.com^
 ||nationalacademies.org^
 ||nationalarchives.gov.uk^
 ||nationstates.net^
@@ -5985,6 +5989,7 @@
 ||ww3.lectulandia.co^
 ||ww3.lectulandia.com^
 ||wwv.veranimes.net^
+||wwv21.kissasian.com.lv^
 ||www21.kinox.to^
 ||www3.anikai.cc^
 ||www3.fsonline.app^
@@ -6089,6 +6094,7 @@
 ||zencine.org^
 ||zeno.fm^
 ||zenodo.org^
+||zenox.lol^
 ||zenz-solutions.de^
 ||zero1cine.com^
 ||zerostream.alwaysdata.net^

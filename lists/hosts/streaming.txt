@@ -2,8 +2,8 @@
 # Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1096
-# Updated: 2026-09-12 08:37:31 UTC
+# Total Rules: 1101
+# Updated: 2026-09-12 09:07:07 UTC
 
 0xdb.org
 123animehub.cc
@@ -471,10 +471,12 @@ kawaiianime.cc
 kayoanime.com
 kazora.cc
 kcnawatch.us
+kdesa.app
 kdesa.stream
 kids-in-mind.com
 kimoitv.com
 kissasian.video
+kisskh.club
 kisskh.dk
 kisskh.fr
 kisskh.id
@@ -580,6 +582,7 @@ multi.tonkacine.watch
 multishows.top
 myanime.live
 myanimelist.net
+myasiantv.com.bz
 mydramalist.com
 myepisodes.com
 myrunningman.com
@@ -1073,6 +1076,7 @@ ww1-fmovies.com
 ww1.goojara.to
 ww1.yesmovies.ag
 ww14.kissasian.com.lv
+wwv21.kissasian.com.lv
 www3.anikai.cc
 xdaforums.com
 xtreme-wrestling-downloads.com
@@ -1094,6 +1098,7 @@ ytsproxies.com
 ytsubdl.com
 yukisubs.wordpress.com
 zencine.org
+zenox.lol
 zero1cine.com
 zerostream.alwaysdata.net
 zetmoon.live
