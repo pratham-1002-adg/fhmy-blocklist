@@ -2,8 +2,8 @@
 # Description: Movies, TV shows, anime, cartoon, sports streaming, and video aggregators.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources (Accumulative)
-# Total Rules: 1101
-# Updated: 2026-09-13 03:38:15 UTC
+# Total Rules: 1103
+# Updated: 2026-09-13 04:37:54 UTC
 
 0xdb.org
 123animehub.cc
@@ -777,6 +777,7 @@ seanime.app
 search-ace.stream
 search.extto.com
 senshi.live
+senshi.to
 serializd.com
 seriesgraph.com
 seriesvault.org
@@ -920,6 +921,7 @@ theyshootpictures.com
 theyshootzombies.com
 tiii.me
 timesoccertv.com
+timst.cfd
 timstreams.st
 titantv.com
 tivimate.com

@@ -2,8 +2,8 @@
 # Description: Complete merged and deduplicated rules from all FMHY categories.
 # Syntax: Plain Domain / Hosts (personalDNSfilter, Pi-hole)
 # Generated automatically from FMHY upstream sources
-# Total Rules: 6123
-# Updated: 2026-09-13 03:38:15 UTC
+# Total Rules: 6125
+# Updated: 2026-09-13 04:37:54 UTC
 
 0mag.net
 0xdb.org
@@ -4708,6 +4708,7 @@ semanticscholar.org
 semiwiki.com
 send2ereader.net
 senshi.live
+senshi.to
 sequencer.henryfellerhoff.com
 sequencer64.com
 serato.com
@@ -5332,6 +5333,7 @@ timeguessr.com
 timesoccertv.com
 timeto.me
 timetreeapp.com
+timst.cfd
 timstreams.st
 tinfoil.com
 tinybots.net
