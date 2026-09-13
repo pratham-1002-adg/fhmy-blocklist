@@ -3,7 +3,7 @@
 ! Syntax: AdGuard / Adblock Plus (||domain^)
 ! Generated automatically from FMHY upstream sources (Accumulative)
 ! Total Rules: 1101
-! Updated: 2026-09-13 02:07:23 UTC
+! Updated: 2026-09-13 02:37:35 UTC
 
 ||0xdb.org^
 ||123animehub.cc^
